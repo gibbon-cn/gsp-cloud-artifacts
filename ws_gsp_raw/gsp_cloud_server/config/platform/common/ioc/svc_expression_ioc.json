@@ -1,0 +1,9 @@
+﻿{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.Expression.Api.IExpressionEvaluator,Inspur.Gsp.Svc.Expression.Api",
+      "Lifetime": "PER-DEPENDENCY",
+      "Implemention": "Inspur.Gsp.Svc.Expression.Engine.SemanticExprEvaluator,Inspur.Gsp.Svc.Expression.Engine"
+    }
+  ]
+}

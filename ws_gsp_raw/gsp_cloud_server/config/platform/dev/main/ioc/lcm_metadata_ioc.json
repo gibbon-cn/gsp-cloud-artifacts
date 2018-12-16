@@ -1,0 +1,24 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.Metadata.Api.IMetadataService,Inspur.Gsp.Lcm.Metadata.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.Metadata.Manager.LocalManager,Inspur.Gsp.Lcm.Metadata.Manager"
+    },
+	{
+      "Interface": "Inspur.Gsp.Lcm.Metadata.Api.IMetadataProjectService,Inspur.Gsp.Lcm.Metadata.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.Metadata.Manager.MetadataProjectManager,Inspur.Gsp.Lcm.Metadata.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.Metadata.Api.IPackageGenerateService,Inspur.Gsp.Lcm.Metadata.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.Metadata.PackageBuilder.PackageManager,Inspur.Gsp.Lcm.Metadata.PackageBuilder"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.Metadata.Api.IMetadataCompileService,Inspur.Gsp.Lcm.Metadata.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.Metadata.Tools.ToolsLocalManager,Inspur.Gsp.Lcm.Metadata.Tools"
+    }
+  ]
+}

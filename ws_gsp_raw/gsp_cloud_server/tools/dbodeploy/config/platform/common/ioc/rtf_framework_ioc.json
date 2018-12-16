@@ -1,0 +1,39 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Ecp.Caf.Context.ITokenSecurity,Inspur.Ecp.Caf.Context",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Ecp.Caf.Context.TokenSecurity,Inspur.Ecp.Caf.Context"
+    },
+	{
+      "Interface": "Inspur.Ecp.Caf.Context.ISessionPublicService,Inspur.Ecp.Caf.Context",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Ecp.Caf.Context.CafSessionServices,Inspur.Ecp.Caf.Context"
+    },
+	{
+      "Interface": "Inspur.Gsp.Rtf.Function.Api.IFunctionService,Inspur.Gsp.Rtf.Function.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Rtf.Function.Core.FunctionService,Inspur.Gsp.Rtf.Function.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Rtf.Framework.Api.IUserInfoService,Inspur.Gsp.Rtf.Framework.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Rtf.Framework.Service.UserInfoService,Inspur.Gsp.Rtf.Framework.Service"
+    },
+	{
+      "Interface": "Inspur.Gsp.Rtf.Authentication.Api.IGSPAuthenticateManager,Inspur.Gsp.Rtf.Authentication.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Rtf.Authentication.Core.GSPAuthenticateManager,Inspur.Gsp.Rtf.Authentication.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Rtf.Framework.Api.IFrameworkFuncService,Inspur.Gsp.Rtf.Framework.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Rtf.Framework.Core.FrameworkFuncService,Inspur.Gsp.Rtf.Framework.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Rtf.Framework.Api.IUserConfigService,Inspur.Gsp.Rtf.Framework.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Rtf.Framework.Core.UserConfigService,Inspur.Gsp.Rtf.Framework.Core"
+    }
+  ]
+}

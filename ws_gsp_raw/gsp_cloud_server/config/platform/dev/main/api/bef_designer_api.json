@@ -1,0 +1,30 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Bef.BizEntity.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "CmpCodeGenController",
+          "Path": "/componentcode",
+          "Type": "Inspur.Gsp.Bef.BizEntity.WebApi.CmpCodeGenController",
+          "Version": "1.0"
+        }
+      ]
+    },
+	{
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Bef.BizEntity.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "BeCodeGenController",
+          "Path": "/becodegenerate",
+          "Type": "Inspur.Gsp.Bef.BizEntity.WebApi.BeCodeGenController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

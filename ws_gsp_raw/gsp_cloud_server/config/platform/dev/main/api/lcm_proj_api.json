@@ -1,0 +1,29 @@
+﻿{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.CloudDev.Project.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "ProjectController",
+          "Path": "/project",
+          "Type": "Inspur.Gsp.Lcm.CloudDev.Project.WebApi.ProjectController",
+          "Version": "1.0"
+        },
+        {
+          "ServiceName": "ProjectTypeController",
+          "Path": "/project-type",
+          "Type": "Inspur.Gsp.Lcm.CloudDev.Project.WebApi.ProjectTypeController",
+          "Version": "1.0"
+        },
+        {
+          "ServiceName": "ProjectImportersController",
+          "Path": "/project-importers",
+          "Type": "Inspur.Gsp.Lcm.CloudDev.Project.WebApi.ProjectImportersController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

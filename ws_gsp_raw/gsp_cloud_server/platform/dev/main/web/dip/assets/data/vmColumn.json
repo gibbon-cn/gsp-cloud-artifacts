@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "280fa23f-fe5f-463e-ab13-1c50cc5e113e",
+    "VMID": "a31c36d8-ba62-4665-afa6-14880592a938",
+    "CODE": "SRCCOL01",
+    "COLTEXT": "S",
+    "DATATYPE": "1",
+    "EDITMODE": "2",
+    "HELPID": "",
+    "HELPCODE": "",
+    "DIRECTION": "1",
+    "HELPCOLUMN": "0",
+    "SMARTHELPID": "",
+    "HELPFILTER": "",
+    "GROUPFILTER": ""
+  },
+  {
+    "ID": "c52c4d6a-85d5-4ee0-8d16-9f119a04c3a7",
+    "VMID": "a31c36d8-ba62-4665-afa6-14880592a938",
+    "CODE": "TR",
+    "COLTEXT": "T",
+    "DATATYPE": "1",
+    "EDITMODE": "0",
+    "HELPID": "",
+    "HELPCODE": "",
+    "DIRECTION": "2",
+    "HELPCOLUMN": "0",
+    "SMARTHELPID": "",
+    "HELPFILTER": "",
+    "GROUPFILTER": ""
+  },
+  {
+    "ID": "15e598e3-0fab-4403-a89f-b7b8bc64b2b3",
+    "VMID": "2a0178e3-0984-4e2e-9aa8-32625f43e50f",
+    "CODE": "SRCCOL01",
+    "COLTEXT": "src",
+    "DATATYPE": "1",
+    "EDITMODE": "0",
+    "HELPID": "",
+    "HELPCODE": "",
+    "DIRECTION": "1",
+    "HELPCOLUMN": "0",
+    "SMARTHELPID": "",
+    "HELPFILTER": "",
+    "GROUPFILTER": ""
+  },
+  {
+    "ID": "0fc1ddda-0dca-40dd-a4e8-0fc805a5ddb2",
+    "VMID": "2a0178e3-0984-4e2e-9aa8-32625f43e50f",
+    "CODE": "TR",
+    "COLTEXT": "tr",
+    "DATATYPE": "1",
+    "EDITMODE": "0",
+    "HELPID": "",
+    "HELPCODE": "",
+    "DIRECTION": "2",
+    "HELPCOLUMN": "0",
+    "SMARTHELPID": "",
+    "HELPFILTER": "",
+    "GROUPFILTER": ""
+  }
+]

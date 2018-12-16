@@ -1,0 +1,18 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.Stakeout.WebApi",
+      "Controllers": [
+		{
+          "ServiceName": "StakeoutController",
+          "Path": "/ustate",
+          "Type": "Inspur.Gsp.Sys.Stakeout.WebApi.StakeoutController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

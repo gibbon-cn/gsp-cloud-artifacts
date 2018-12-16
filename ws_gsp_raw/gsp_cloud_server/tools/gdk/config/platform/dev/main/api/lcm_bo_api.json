@@ -1,0 +1,30 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+   {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.BusinessObject.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "BusinessObject",
+          "Path": "/business-objects",
+          "Type": "Inspur.Gsp.Lcm.BusinessObject.WebApi.BusinessObjectController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "BusinessObjectTree",
+          "Path": "/business-object-trees",
+          "Type": "Inspur.Gsp.Lcm.BusinessObject.WebApi.BusinessObjectTreeController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "DevBasicBOInfo",
+          "Path": "/dev-basic-boinfos",
+          "Type": "Inspur.Gsp.Lcm.BusinessObject.WebApi.DevBasicBOInfoController",
+          "Version": "1.0"
+        }		
+      ]
+    }
+  ] 
+}

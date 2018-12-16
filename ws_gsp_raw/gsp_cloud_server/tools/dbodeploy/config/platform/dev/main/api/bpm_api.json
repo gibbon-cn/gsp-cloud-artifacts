@@ -1,0 +1,74 @@
+{
+	"GSPWebApiConfigurations": [{
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeEventEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeEventEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeActionEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeActionEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeCreationRuleEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeCreationRuleEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeCreationProcessEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeCreationProcessEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeWritebackRuleEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeWritebackRuleEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeWritebackProcessEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeWritebackProcessEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeFlowchartEntitiesController",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeFlowchartEntitiesController",
+					"Version": "1.0"
+				}
+			]
+		}
+	]
+}

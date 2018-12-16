@@ -1,0 +1,9 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.Mapping.Runtime.Api.ITransformService,Inspur.Gsp.Svc.Mapping.Runtime.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.Mapping.Runtime.Service.TransformService,Inspur.Gsp.Svc.Mapping.Runtime.Service"
+    }
+  ]
+}

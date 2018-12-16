@@ -1,0 +1,16 @@
+{
+  "editor": "editorPackage.module#./src/app/demos/metadata-editor-demo/package.module.ts#MetadataEditorPackageModule",
+  "beDesignerPrototype": "bePrototypePackage.module#./src/app/demos/be-designer-prototype/package.module.ts#BeDesignerPrototypePackageModule",
+  "metadataWizard": "metadataWizardPackage.module#./src/app/demos/metadata-wizard/package.module.ts#MetadataWizardPackageModule",
+  "gsprojectWizard": "gsprojectWizardPackage.module#./src/app/demos/gsproject-wizard/package.module.ts#GSProjectWizardPackageModule",
+  "bizEntityDesigner": "bizEntityDesignerPackage.module#./src/app/demos/bedesigner-frame/package.module.ts#BizEntityDesignerPackageModule",
+  "udtDesigner": "udtDesignerPackage.module#./src/app/demos/udtdesigner-frame/package.module.ts#UdtDesignerPackageModule",
+  "newProjectWizard": "projectWizardPackage.module#./src/app/demos/project-wizard/package.module.ts#ProjectWizardPackageModule",
+  "importProjectWizard": "projectWizardPackage.module#./src/app/demos/project-wizard/package.module.ts#ProjectWizardPackageModule",
+  "folderWizard": "folderWizardPackage.module#./src/app/demos/folder-wizard/package.module.ts#FolderWizardPackageModule",
+  "formCreateWizard": "formCreateWizardPackage.module#./src/app/packages/form-create-wizard-package/package.module.ts#FormCreateWizardPackageModule",
+  "businessObject": "businessObjectsPackage.module#./src/app/demos/business-objects/package.module.ts#BusinessObjectsModule",
+  "sgDesigner": "servicegatewayWizardPackage.module#./src/app/demos/sgdesigner-wizard/package.module.ts#SgDesignerPackageModule",
+  "formEditor": "formEditorPackage.module#./src/app/packages/form-editor-package/package.module.ts#FormEditorPackageModule",
+  "propertyPanel": "propertyPackage.module#./src/app/packages/property-package/package.module.ts#PropertyPackageModule"
+}

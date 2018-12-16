@@ -1,0 +1,18 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.WebDev.ControlMetadata",
+      "Controllers": [
+        {
+          "ServiceName": "ControlMetadata",
+          "Path": "/controlmetadata",
+          "Type": "Inspur.Gsp.WebDev.ControlMetadata.Controller.ControlMetadataController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}
+

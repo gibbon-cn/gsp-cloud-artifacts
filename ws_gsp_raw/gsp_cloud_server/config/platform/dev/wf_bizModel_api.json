@@ -1,0 +1,16 @@
+{
+    "GSPWebApiConfigurations": [
+        {
+            "Application": "dev",
+            "ServiceUnit": "wf",
+            "Assembly": "Inspur.Gsp.WF.BizModel.WebApi",
+            "Controllers": [
+                {
+                    "ServiceName": "flowForm",
+                    "Type": "Inspur.Gsp.WF.BizModel.WebApi.FlowFormController",
+                    "Version": "1.0"
+                }
+            ]
+        }
+    ]
+}

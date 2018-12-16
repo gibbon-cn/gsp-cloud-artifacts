@@ -1,0 +1,25 @@
+﻿{
+	"GSPWebApiConfigurations": 
+	[
+		{
+			"Application": "runtime",
+			"ServiceUnit": "sys",
+			"Assembly": "MQControllerTest",
+			"Controllers": 
+			[
+				{
+					"ServiceName": "Publisher",
+					"Path": "/mq",
+					"Type": "MQControllerTest.Publisher",
+					"Version": "1.0"
+				},
+				{
+					"ServiceName": "ConsumerRegister",
+					"Path": "/consumer",
+					"Type": "MQControllerTest.ConsumerRegister",
+					"Version": "1.0"
+				}
+			]
+		}
+	] 
+}

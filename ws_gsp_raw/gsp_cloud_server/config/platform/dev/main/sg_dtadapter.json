@@ -1,0 +1,20 @@
+﻿{
+  "ResourceDTConfig": {
+      "ExternalResInvokeList": [
+        {
+          "Code": "VO",
+          "Name": "VO",
+          "DescAssembly": "Inspur.Gsp.Sgf.DesignTime.ResourceProvider",
+          "DescClassName": "Inspur.Gsp.Sgf.DesignTime.ResourceProvider.ExternalVmResDescription"
+        }
+      ],
+	  "InternalResInvokeList": [
+        {
+          "Code": "VM",
+          "Name": "VM",
+          "DescAssembly": "Inspur.Gsp.Sgf.DesignTime.ResourceProvider",
+          "DescClassName": "Inspur.Gsp.Sgf.DesignTime.ResourceProvider.InternalVmResDescription"
+        }
+      ]
+  }
+}

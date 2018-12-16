@@ -1,0 +1,9 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.WF.TaskCenter.Server.ITaskMgrService,Inspur.Gsp.WF.TaskCenter.Server",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.WF.TaskCenter.Server.Services.TaskMgrService,Inspur.Gsp.WF.TaskCenter.Server"
+    }
+  ]
+}

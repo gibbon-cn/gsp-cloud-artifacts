@@ -1,0 +1,64 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.SetDevRootService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BeGenDBOService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BeGenCompService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BeGenCompCodeService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BeBuildService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BePreBuildService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BePublishServiceService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.MetadataProjectService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BuildProjectService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.CreateMetadataService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.SuService,Inspur.Gdk.Cli.Extension"
+    },
+    {
+      "Interface": "Inspur.Gdk.Cli.Util.ICommandService,Inspur.Gdk.Cli.Util",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gdk.Cli.Extension.BeDeployService,Inspur.Gdk.Cli.Extension"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.OData.EdmBuilder.Api.IGSPODataEdmBuilder,Inspur.Gsp.OData.EdmBuilder.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.OData.EdmBuilder.Core.GSPODataEdmBuilder,Inspur.Gsp.OData.EdmBuilder.Core"
+    }
+  ]
+}

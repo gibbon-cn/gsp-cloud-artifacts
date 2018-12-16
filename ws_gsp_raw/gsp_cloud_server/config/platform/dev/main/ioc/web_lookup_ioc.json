@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Web.LookupManager.ILookupService,Inspur.Gsp.Web.LookupManager.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Web.LookupManager.LookupService,Inspur.Gsp.Web.LookupManager"
+    }
+  ]
+}

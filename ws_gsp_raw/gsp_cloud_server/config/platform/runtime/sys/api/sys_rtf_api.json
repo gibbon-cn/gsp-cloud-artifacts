@@ -1,0 +1,151 @@
+﻿/*
+  配置文件的路径
+  Glbal
+    -WebApi
+      -GSP
+        -CafWebApi.json
+        -SysWebApi.json
+        -....
+      -BI
+      -FI
+*/
+{
+  "GSPWebApiConfigurations": [
+      {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Framework.Login",
+      "Controllers": [
+        {
+          "ServiceName": "Login",
+          "Path": "/login-states",
+          "Type": "Inspur.Gsp.Rtf.Framework.Login.LoginController",
+          "Version": "1.0"
+        }
+      ]
+    },
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Framework.Login",
+      "Controllers": [
+        {
+          "ServiceName": "loginInfoController",
+          "Path": "/login-infos",
+          "Type": "Inspur.Gsp.Rtf.Framework.Login.LoginInfoController",
+          "Version": "1.0"
+        }
+      ]
+    },
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Function.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "func_controller",
+          "Path": "/functions",
+          "Type": "Inspur.Gsp.Rtf.Function.Controller.FunctionController",
+          "Version": "1.0"
+        }
+      ]
+    },
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Framework.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "framework_controller",
+          "Path": "/function-states",
+          "Type": "Inspur.Gsp.Rtf.Framework.Controller.FuncController",
+          "Version": "1.0"
+        }
+      ]
+    },
+	{
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Framework.Login",
+      "Controllers": [
+        {
+          "ServiceName": "sys",
+          "Path": "/Authentication",
+          "Type": "Inspur.Gsp.Rtf.Framework.Login.AuthenticationController",
+          "Version": "1.0"
+        }
+      ]
+    },
+	{
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Framework.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "Userinfo",
+          "Path": "/userinfos",
+          "Type": "Inspur.Gsp.Rtf.Framework.Controller.UserInfoController",
+          "Version": "1.0"
+        }
+      ]
+    },
+	{
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Authentication.UserPassword",
+      "Controllers": [
+        {
+          "ServiceName": "authenitem",
+          "Path": "/authenitems",
+          "Type": "Inspur.Gsp.Rtf.Authentication.UserPassword.PasswordController",
+          "Version": "1.0"
+        }
+      ]
+    },
+		{
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Authentication.Core",
+      "Controllers": [
+        {
+          "ServiceName": "account",
+          "Path": "/accounts",
+          "Type": "Inspur.Gsp.Rtf.Authentication.Core.AuthenAccountController",
+          "Version": "1.0"
+        }
+      ]
+    }
+	/*,
+	{
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Rtf.Authentication.UserPassword",
+      "Controllers": [
+        {
+          "ServiceName": "gspuserpassworditems",
+          "Type": "Inspur.Gsp.Rtf.Authentication.UserPassword.GSPUserPasswordItemsController",
+          "Version": "1.0"
+        }
+      ]
+    }*/
+    /*{
+      "Application": "dev",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.SysManager.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "user",
+          "Path": "/User",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.UserController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "AssignTimePermission",
+          "Path": "/AssignTimePermission",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.AssignTimePermissionController",
+          "Version": "1.0"
+        }
+      ]
+    }*/
+  ] 
+}

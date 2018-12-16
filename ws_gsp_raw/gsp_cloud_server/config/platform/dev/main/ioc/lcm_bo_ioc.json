@@ -1,0 +1,13 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.BusinessObject.Api.IBusinessObjectService,Inspur.Gsp.Lcm.BusinessObject.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.BusinessObject.Manager.Service.LocalManager,Inspur.Gsp.Lcm.BusinessObject.Manager"
+    },{
+      "Interface": "Inspur.Gsp.Lcm.BusinessObject.Api.IBusinessObjectMappingService,Inspur.Gsp.Lcm.BusinessObject.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.BusinessObject.Manager.Service.MappingLocalManager,Inspur.Gsp.Lcm.BusinessObject.Manager"
+    }
+  ]
+}

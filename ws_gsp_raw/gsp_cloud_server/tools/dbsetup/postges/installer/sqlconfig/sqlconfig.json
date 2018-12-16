@@ -1,0 +1,32 @@
+{
+	"SqlConfig": {
+		"Initdb": ["initdb/01gsp_pg_initdb_ddl_aif.sql",
+		"initdb/01gsp_pg_initdb_ddl_bef.sql",
+		"initdb/01gsp_pg_initdb_ddl_caf.sql",
+		"initdb/01gsp_pg_initdb_ddl_cmp.sql",
+		"initdb/01gsp_pg_initdb_ddl_dip.sql",
+		"initdb/01gsp_pg_initdb_ddl_lcm.sql",
+		"initdb/01gsp_pg_initdb_ddl_rtf.sql",
+		"initdb/01gsp_pg_initdb_ddl_webdev.sql",
+		"initdb/01gsp_pg_initdb_ddl_wf.sql",
+		"initdb/02gsp_pg_initdb_dml_aif.sql",
+		"initdb/02gsp_pg_initdb_dml_bef.sql",
+		"initdb/02gsp_pg_initdb_dml_caf.sql",
+		"initdb/02gsp_pg_initdb_dml_cmp.sql",
+		"initdb/02gsp_pg_initdb_dml_dip.sql",
+		"initdb/02gsp_pg_initdb_dml_lcm.sql",
+		"initdb/02gsp_pg_initdb_dml_rtf.sql",
+		"initdb/02gsp_pg_initdb_dml_webdev.sql",
+		"initdb/02gsp_pg_initdb_dml_wf.sql"],
+		"Demo": ["demo/01gsp_demodb_ddl.sql",
+		"demo/02gsp_demodb_dml_aif.sql",
+		"demo/02gsp_demodb_dml_bef.sql",
+		"demo/02gsp_demodb_dml_caf.sql",
+		"demo/02gsp_demodb_dml_cmp.sql",
+		"demo/02gsp_demodb_dml_dip.sql",
+		"demo/02gsp_demodb_dml_lcm.sql",
+		"demo/02gsp_demodb_dml_rtf.sql",
+		"demo/02gsp_demodb_dml_webdev.sql",
+		"demo/02gsp_demodb_dml_wf.sql"]
+	}
+}

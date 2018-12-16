@@ -1,0 +1,14 @@
+{
+  "GSPWebApiConfigurations": [{
+    "Application": "dev",
+    "ServiceUnit": "main",
+    "Assembly": "Inspur.Gsp.WebDev.Runtime",
+    "Controllers": [{
+        "ServiceName": "JITEngineAnalysis",
+        "Path": "/jitanalysis",
+        "Type": "Inspur.Gsp.WebDev.Runtime.JITServiceController",
+        "Version": "1.0"
+      }
+    ]
+  }]
+}

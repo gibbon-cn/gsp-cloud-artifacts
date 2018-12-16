@@ -1,0 +1,89 @@
+{
+    "backend": [{
+            "name": "aif",
+            "path": "",
+            "type": "folder"
+        },
+		{
+            "name": "ccmp",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "eapi",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "iapi",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "be",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "udt",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "bin",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "dbo",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "publish",
+            "path": "",
+            "type": "folder"
+        },
+          {
+            "name": "event",
+            "path": "",
+            "type": "folder"
+        },
+          {
+            "name": "action",
+            "path": "",
+            "type": "folder"
+        },
+          {
+            "name": "pubsub",
+            "path": "",
+            "type": "folder"
+        },{
+            "name": "mapping",
+            "path": "",
+            "type": "folder"
+        },
+		{
+            "name": "webcmp",
+            "path": "",
+            "type": "folder"
+        }
+    ],
+    "frontend": [
+        {
+            "name": "bin",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "components",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "lookups",
+            "path": "",
+            "type": "folder"
+        }
+    ]
+}

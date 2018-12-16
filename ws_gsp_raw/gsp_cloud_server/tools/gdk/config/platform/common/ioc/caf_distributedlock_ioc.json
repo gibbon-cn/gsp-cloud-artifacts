@@ -1,0 +1,20 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.LockService.Api.ILockService,Inspur.Gsp.Svc.LockService.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.LockService.Impl.LockServiceImpl,Inspur.Gsp.Svc.LockService.Impl"
+    },
+    {
+      "Interface": "Inspur.Gsp.Svc.LockService.Api.IDistributedLockFactory,Inspur.Gsp.Svc.LockService.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.LockService.Impl.DistributedLockFactory,Inspur.Gsp.Svc.LockService.Impl"
+    },
+    {
+      "Interface": "Inspur.Gsp.Svc.LockService.Api.IDistributedLock,Inspur.Gsp.Svc.LockService.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.LockService.Impl.DistributedLock,Inspur.Gsp.Svc.LockService.Impl"
+    }
+
+  ]
+}

@@ -1,0 +1,9 @@
+
+{
+    "ServiceUnitInfo" :
+    {
+        "ApplicationName" : "runtime",
+        "ServiceUnitName" : "dip",
+        "ApplicationPath" : "/platform/runtime/dip"
+    }
+}

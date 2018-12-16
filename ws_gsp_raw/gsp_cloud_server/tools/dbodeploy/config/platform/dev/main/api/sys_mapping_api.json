@@ -1,0 +1,17 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Svc.MappingDesigner.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "MappingDesignerController",
+          "Path": "/mapping",
+          "Type": "Inspur.Gsp.Svc.MappingDesigner.Controller.MappingDesignerController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

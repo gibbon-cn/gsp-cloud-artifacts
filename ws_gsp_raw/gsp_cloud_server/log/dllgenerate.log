@@ -1,0 +1,431 @@
+------ New session ------
+2018-06-27 16:42:18,745 [6] ERROR - CommunicationGenerator - 164218-3373 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 16:42:18,747 [6] ERROR - CommunicationGenerator - 164218-3373 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 17:19:13,946 [6] ERROR - CommunicationGenerator - 171841-7048 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 17:19:14,001 [6] ERROR - CommunicationGenerator - 171841-7048 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 17:23:24,015 [6] ERROR - CommunicationGenerator - 172323-3333 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 17:23:24,017 [6] ERROR - CommunicationGenerator - 172323-3333 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 17:30:50,668 [6] ERROR - CommunicationGenerator - 172943-5348 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 17:30:50,672 [6] ERROR - CommunicationGenerator - 172943-5348 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 17:31:54,324 [6] ERROR - CommunicationGenerator - 173153-5207 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 17:31:54,330 [6] ERROR - CommunicationGenerator - 173153-5207 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 18:38:39,536 [6] ERROR - CommunicationGenerator - 183838-4479 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 18:38:39,544 [6] ERROR - CommunicationGenerator - 183838-4479 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 18:45:13,618 [6] ERROR - CommunicationGenerator - 184512-2065 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 18:45:13,622 [6] ERROR - CommunicationGenerator - 184512-2065 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 19:46:19,330 [6] ERROR - CommunicationGenerator - 194618-9153 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 19:46:19,333 [6] ERROR - CommunicationGenerator - 194618-9153 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 19:47:42,838 [6] ERROR - CommunicationGenerator - 194742-4156 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 19:47:42,840 [6] ERROR - CommunicationGenerator - 194742-4156 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 19:49:26,317 [6] ERROR - CommunicationGenerator - 194925-9782 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 19:49:26,319 [6] ERROR - CommunicationGenerator - 194925-9782 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 20:03:13,993 [6] ERROR - CommunicationGenerator - 200313-1266 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 20:03:13,995 [6] ERROR - CommunicationGenerator - 200313-1266 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 20:05:00,541 [6] ERROR - CommunicationGenerator - 200459-1184 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 20:05:00,543 [6] ERROR - CommunicationGenerator - 200459-1184 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 20:05:20,399 [6] ERROR - CommunicationGenerator - 200519-1620 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 20:05:20,402 [6] ERROR - CommunicationGenerator - 200519-1620 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 20:06:27,002 [6] ERROR - CommunicationGenerator - 200626-7691 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 20:06:27,004 [6] ERROR - CommunicationGenerator - 200626-7691 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 20:06:49,939 [6] ERROR - CommunicationGenerator - 200649-4406 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 20:06:49,942 [6] ERROR - CommunicationGenerator - 200649-4406 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 21:10:54,426 [6] ERROR - CommunicationGenerator - 211019-7282 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 21:10:54,644 [6] ERROR - CommunicationGenerator - 211019-7282 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 21:15:19,396 [6] ERROR - CommunicationGenerator - 211433-4388 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 21:15:19,454 [6] ERROR - CommunicationGenerator - 211433-4388 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-27 22:10:25,707 [6] ERROR - CommunicationGenerator - 221025-5086 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-27 22:10:25,711 [6] ERROR - CommunicationGenerator - 221025-5086 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-28 09:57:32,572 [6] ERROR - CommunicationGenerator - 095731-3431 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-28 09:57:32,574 [6] ERROR - CommunicationGenerator - 095731-3431 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-06-28 09:58:30,205 [6] ERROR - CommunicationGenerator - 095829-9794 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-06-28 09:58:30,211 [6] ERROR - CommunicationGenerator - 095829-9794 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 14:40:21,869 [6] ERROR - CommunicationGenerator - 144021-3011 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 14:40:21,871 [6] ERROR - CommunicationGenerator - 144021-3011 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 15:32:04,242 [6] ERROR - CommunicationGenerator - 153203-9465 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 15:32:04,244 [6] ERROR - CommunicationGenerator - 153203-9465 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 15:32:33,434 [6] ERROR - CommunicationGenerator - 153233-5296 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 15:32:33,436 [6] ERROR - CommunicationGenerator - 153233-5296 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 15:43:44,650 [6] ERROR - CommunicationGenerator - 154344-2863 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 15:43:44,653 [6] ERROR - CommunicationGenerator - 154344-2863 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:14:59,255 [6] ERROR - CommunicationGenerator - 171458-8153 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:14:59,257 [6] ERROR - CommunicationGenerator - 171458-8153 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:15:08,212 [6] ERROR - CommunicationGenerator - 171507-4036 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:15:08,214 [6] ERROR - CommunicationGenerator - 171507-4036 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:15:25,841 [6] ERROR - CommunicationGenerator - 171525-6868 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:15:25,843 [6] ERROR - CommunicationGenerator - 171525-6868 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:21:09,248 [6] ERROR - CommunicationGenerator - 172108-7546 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:21:09,250 [6] ERROR - CommunicationGenerator - 172108-7546 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:22:21,874 [6] ERROR - CommunicationGenerator - 172221-3920 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:22:21,876 [6] ERROR - CommunicationGenerator - 172221-3920 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:24:54,771 [6] ERROR - CommunicationGenerator - 172454-7267 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:24:54,773 [6] ERROR - CommunicationGenerator - 172454-7267 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 17:28:44,865 [6] ERROR - CommunicationGenerator - 172844-5815 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 17:28:44,868 [6] ERROR - CommunicationGenerator - 172844-5815 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-02 22:17:46,767 [6] ERROR - CommunicationGenerator - 221743-3128 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-02 22:17:46,780 [6] ERROR - CommunicationGenerator - 221743-3128 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-03 08:45:05,376 [6] ERROR - CommunicationGenerator - 084505-5536 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-03 08:45:05,380 [6] ERROR - CommunicationGenerator - 084505-5536 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-03 10:06:18,964 [6] ERROR - CommunicationGenerator - 100616-5598 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-03 10:06:18,977 [6] ERROR - CommunicationGenerator - 100616-5598 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-03 10:06:36,422 [6] ERROR - CommunicationGenerator - 100636-2984 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-03 10:06:36,424 [6] ERROR - CommunicationGenerator - 100636-2984 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-03 10:06:59,913 [6] ERROR - CommunicationGenerator - 100659-4745 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-03 10:06:59,915 [6] ERROR - CommunicationGenerator - 100659-4745 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-07-03 10:07:25,300 [6] ERROR - CommunicationGenerator - 100725-9358 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+2018-07-03 10:07:25,302 [6] ERROR - CommunicationGenerator - 100725-9358 - [CommunicationTag,Caf,Generator] - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information. {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25}
+------ New session ------
+2018-10-21 19:46:15,554 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集App.Metrics.Extensions.Middleware, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'App.Metrics.Health.HealthCheck' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+Could not load type 'App.Metrics.Health.HealthStatus' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.TypeLoadException: Could not load type 'App.Metrics.Health.HealthCheck' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+System.TypeLoadException: Could not load type 'App.Metrics.Health.HealthStatus' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.}
+2018-10-21 19:46:15,565 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集App.Metrics.Extensions.Reporting.InfluxDB, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'App.Metrics.Abstractions.Reporting.IReporterProvider' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+Could not load type 'App.Metrics.Abstractions.Reporting.IReporterSettings' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.TypeLoadException: Could not load type 'App.Metrics.Abstractions.Reporting.IReporterProvider' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+System.TypeLoadException: Could not load type 'App.Metrics.Abstractions.Reporting.IReporterSettings' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.}
+2018-10-21 19:46:15,565 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集App.Metrics.Formatting.InfluxDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'App.Metrics.Reporting.Abstractions.IMetricPayloadBuilder`1' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+Could not load type 'App.Metrics.Tagging.MetricTags' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.TypeLoadException: Could not load type 'App.Metrics.Reporting.Abstractions.IMetricPayloadBuilder`1' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.
+System.TypeLoadException: Could not load type 'App.Metrics.Tagging.MetricTags' from assembly 'App.Metrics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0d5193a913d1b812'.}
+2018-10-21 19:46:17,316 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Bool2CharProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Bool2IntProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.CharTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.ClobTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DateTime2Char8Processer' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DateTimeTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DecimalTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Enum2VarcharProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.IntTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.VarcharTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Method not found: 'System.Object[] Inspur.Gsp.Bef.Api.Repository.IDacAssembler.BuildInsertParamters(Inspur.Ecp.Caf.DataAccess.IGSPDatabase, Inspur.Gsp.Bef.Entity.EntityData.IEntityData)'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Bool2CharProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Bool2IntProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.CharTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.ClobTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DateTime2Char8Processer' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DateTimeTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.DecimalTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.Enum2VarcharProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.IntTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Method 'TransType' in type 'Inspur.Gsp.Bef.Repository.TypeTransProcesser.VarcharTransProcesser' from assembly 'Inspur.Gsp.Bef.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.MissingMethodException: Method not found: 'System.Object[] Inspur.Gsp.Bef.Api.Repository.IDacAssembler.BuildInsertParamters(Inspur.Ecp.Caf.DataAccess.IGSPDatabase, Inspur.Gsp.Bef.Entity.EntityData.IEntityData)'.}
+2018-10-21 19:46:17,469 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集Inspur.Gsp.Rtf.Framework.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+
+}
+2018-10-21 19:46:17,779 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集Inspur.Gsp.Resource.Component, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Method 'Serialize' in type 'Inspur.Gsp.Resource.Component.Serializer.ComponentXmlSerializer' from assembly 'Inspur.Gsp.Resource.Component, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Method 'Serialize' in type 'Inspur.Gsp.Resource.Component.Serializer.ComponentXmlSerializer' from assembly 'Inspur.Gsp.Resource.Component, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'Inspur.Gsp.Component.Api.IComponentContent' from assembly 'Inspur.Gsp.Component.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.}
+2018-10-21 19:46:17,834 [7] ERROR - CommunicationGenerator - 194605-3112 - [CommunicationTag,Caf,Generator] - 从程序集Inspur.Gsp.Rtf.Function.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null获取接口失败 {System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Inspur.Ecp.Caf.Communication.Generator.InterfaceHandleService.GetInterfaceList() in E:\Gitlab\communication\communication-service\src\communication-generator\InterfaceManage\InterfaceHandleService.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Inspur.Ecp.Caf.DataAccess.AbstractPersistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+
+}

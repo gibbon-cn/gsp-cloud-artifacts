@@ -1,0 +1,14 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.MQ.Api.IMessageQueueProducer,Inspur.Gsp.Svc.MQ.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.MQ.Service.MessageQueueProducer,Inspur.Gsp.Svc.MQ.Service"
+    },
+	{
+      "Interface": "Inspur.Gsp.Svc.MQ.Api.IMessageQueueExtends,Inspur.Gsp.Svc.MQ.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.MQ.Service.MessageQueueExtends,Inspur.Gsp.Svc.MQ.Service"
+    }
+  ]
+}

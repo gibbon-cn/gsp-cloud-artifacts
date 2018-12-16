@@ -1,0 +1,45 @@
+﻿{
+    "Services": [
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.IBeEventController,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.Engine.BeEventController,Inspur.Gsp.Aif.Engine"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.IBeCreationRuleExecutor,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.Engine.BeCreationRuleExecutor,Inspur.Gsp.Aif.Engine"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Engine.IBeCreationProcessExecutor,Inspur.Gsp.Aif.Engine",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.Engine.BeCreationProcessExecutor,Inspur.Gsp.Aif.Engine"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Engine.IBeWritebackProcessExecutor,Inspur.Gsp.Aif.Engine",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.Engine.BeWritebackProcessExecutor,Inspur.Gsp.Aif.Engine"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.IAifRuntimeService,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.Engine.AifRuntimeService,Inspur.Gsp.Aif.Engine"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "ServiceUnitInfo": {
+        "ServiceUnitName": "rtcommon",
+        "Type":"common",
+        "ApplicationPath": "/platform/runtime/common"
+    }
+}

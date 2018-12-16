@@ -1,0 +1,14 @@
+{
+  "GSPWebApiConfigurations": [{
+    "Application": "dev",
+    "ServiceUnit": "main",
+    "Assembly": "Inspur.Gsp.Web.Lookup.WebApi",
+    "Controllers": [{
+        "ServiceName": "LookupController",
+        "Path": "/lookup",
+        "Type": "Inspur.Gsp.Web.Lookup.WebApi.LookupController",
+        "Version": "1.0"
+      }
+    ]
+  }]
+}

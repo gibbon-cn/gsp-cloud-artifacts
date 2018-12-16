@@ -1,0 +1,45 @@
+﻿{
+    "ControllerEventConfiguration": {
+        "EventListenerConfigurations": [{
+                "Code": "MetadataEventManager",
+                "ListenerName": "MetadataEventListener",
+                "AssemblyName": "Inspur.Gsp.Lcm.Metadata.Manager",
+                "ImplClassName": "Inspur.Gsp.Lcm.Metadata.Manager.MetadataEventListener",
+                "EventManagerCode": "MetadataEventManager",
+                "Name": "MetadataEventManager"
+            },
+            {
+                "Code": "BizEntityEventManager",
+                "ListenerName": "BizEntityEventManager",
+                "AssemblyName": "Inspur.Gsp.Bef.BEManager",
+                "ImplClassName": "Inspur.Gsp.Bef.BEManager.MetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+            {
+                "Code": "ViewModelEventManager",
+                "ListenerName": "ViewModelEventManager",
+                "AssemblyName": "Inspur.Gsp.FormServer.VMManager",
+                "ImplClassName": "Inspur.Gsp.FormServer.VMManager.MetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+            {
+                "Code": "UdtEventManager",
+                "ListenerName": "UdtEventManager",
+                "AssemblyName": "Inspur.Gsp.Udt.DesignTime.Manager",
+                "ImplClassName": "Inspur.Gsp.Udt.DesignTime.Manager.UdtMetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+            {
+                "Code": "EbsEntityEventManager",
+                "ListenerName": "EbsEntityEventManager",
+                "AssemblyName": "Inspur.Gsp.Ebs.Core",
+                "ImplClassName": "Inspur.Gsp.Ebs.Core.EventListener.MetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            }
+        ]
+    }
+}

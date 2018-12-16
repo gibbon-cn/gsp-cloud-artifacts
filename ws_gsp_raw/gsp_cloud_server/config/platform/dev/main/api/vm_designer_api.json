@@ -1,0 +1,13 @@
+{
+    "GSPWebApiConfigurations": [{
+        "Application": "dev",
+        "ServiceUnit": "main",
+        "Assembly": "Inspur.Gsp.FormServer.ViewModel.WebApi",
+        "Controllers": [{
+            "ServiceName": "ViewModelController",
+            "Path": "/viewmodel",
+            "Type": "Inspur.Gsp.FormServer.ViewModel.WebApi.ViewModelController",
+            "Version": "1.0"
+        }]
+    }]
+}

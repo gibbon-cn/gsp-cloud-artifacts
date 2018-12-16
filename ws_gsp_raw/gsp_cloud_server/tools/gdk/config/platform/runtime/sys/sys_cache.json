@@ -1,0 +1,83 @@
+{
+	"CachingConfiguration" :
+	{
+	  "MemoryCacheManagers": [
+		{
+		  "Name": "Metadata",
+		  "CacheType": "Local",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"15"
+		},
+		{
+		  "Name": "GspFunc",
+		  "CacheType": "Local",
+		  "ExpirationScanFrequency":"00:05:00",
+		  "SizeLimit":"512",
+		  "CompactionPercentage":"20"
+		},
+		{
+		  "Name": "Context",
+		  "CacheType": "Distributed",
+		  "ExpirationScanFrequency":"00:05:00",
+		  "SizeLimit":"512",
+		  "CompactionPercentage":"20"
+		},
+                {
+		  "Name": "MedataPackageInfo",
+		  "CacheType": "Local",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"0.15"
+		},
+		{
+		  "Name": "MedataPackageDependence",
+		  "CacheType": "Local",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"0.15"
+		},
+		{
+		  "Name": "MetadataManifestInfo",
+		  "CacheType": "Distributed",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"0.15"
+		},
+		{
+		  "Name": "MetadataInfo",
+		  "CacheType": "Distributed",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"0.15"
+		},
+		{
+		  "Name": "MetadataDependence",
+		  "CacheType": "Distributed",
+		  "ExpirationScanFrequency":"00:10:00",
+		  "SizeLimit":"2048",
+		  "CompactionPercentage":"0.15"
+		}
+	  ],
+	  "DistributedCacheManagers": [
+		{
+		  "Name": "Bef",
+		  "CacheType": "Distributed",
+		  "Configuration":"127.0.0.1:6379",
+		  "InstanceName":"BefCacheServer"
+		},
+		{
+		  "Name": "Context",
+		  "CacheType": "Distributed",
+		  "Configuration":"127.0.0.1:6379",
+		  "InstanceName":"ContextServer"
+		},
+		{
+		  "Name": "Multitenancy",
+		  "CacheType": "Distributed",
+		  "Configuration":"127.0.0.1:6379",
+		  "InstanceName":"MultitenancyServer"
+		}	
+	  ]
+	}
+}

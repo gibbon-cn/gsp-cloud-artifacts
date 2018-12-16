@@ -1,0 +1,17 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Svc.Timestamp.EnableRecordDelData.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "EnableDelDataRecordController",
+          "Path": "/enablerecord",
+          "Type": "Inspur.Gsp.Svc.Timestamp.EnableRecordDelData.Controller.EnableDelDataRecordController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

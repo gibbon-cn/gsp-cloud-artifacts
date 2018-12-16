@@ -1,0 +1,47 @@
+{
+  "MainEventConfiguration": {
+    "EventListenerConfigurations": []
+  },
+  "MiddlewareEventConfiguration": {},
+  "ConfigureServiceEventConfiguration": {
+    "EventListenerConfigurations": [
+      {
+        "Code": "ConsumerListenerService",
+        "ListenerName": "ConsumerListenerService",
+        "AssemblyName": "Inspur.Gsp.Svc.MQ.Service",
+        "ImplClassName": "Inspur.Gsp.Svc.MQ.Service.ConsumerListenerService",
+        "EventManagerCode": "ConsumerListenerService",
+        "Name": "ConsumerListenerService"
+      },
+      {
+        "Code": "AddODataEventManager",
+        "ListenerName": "AddODataEventManager",
+        "AssemblyName": "Inspur.Gsp.OData.Adapter",
+        "ImplClassName": "Inspur.Gsp.OData.Adapter.Event.GspAddODataEvent",
+        "EventManagerCode": "AddODataEventManager",
+        "Name": "AddODataEventManager"
+      }
+    ]
+  },
+  "UseEventConfiguration": {
+    "EventListenerConfigurations": [
+      {
+        "Code": "MapODataEventManager",
+        "ListenerName": "MapODataEventManager",
+        "AssemblyName": "Inspur.Gsp.OData.Adapter",
+        "ImplClassName": "Inspur.Gsp.OData.Adapter.Event.GspMapODataRouteEvent",
+        "EventManagerCode": "MapODataEventManager",
+        "Name": "MapODataEventManager"
+      }
+    ]
+  },
+  "ConfigEventConfiguration": {
+    "EventListenerConfigurations": []
+  },
+  "ControllerEventConfiguration": {
+    "EventListenerConfigurations": []
+  },
+  "RpcEventConfiguration": {
+    "EventListenerConfigurations": []
+  }
+}

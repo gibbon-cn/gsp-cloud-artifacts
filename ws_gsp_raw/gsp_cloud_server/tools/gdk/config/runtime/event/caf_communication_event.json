@@ -1,0 +1,72 @@
+
+{
+    "MainEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            
+        ]
+    },
+    "MiddlewareEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            // {
+            //     "Code" : "CanteenEvent",
+            //     "ListenerName" : "CanteenEvent",
+            //     "AssemblyName" : "Inspur.EcmCloud.Apps.Canteen.NewServiceWebApi",
+            //     "ImplClassName" : "Inspur.EcmCloud.Apps.Canteen.NewServiceWebApi.CanteenStateEventListener",
+            //     "EventManagerCode" : "CanteenEvent",
+            //     "Name" : "CanteenEvent"
+            // }
+			{
+                 "Code" : "sg",
+                 "ListenerName" : "sg",
+                 "AssemblyName" : "Inspur.Gsp.Sgf.Runtime.Core",
+                 "ImplClassName" : "Inspur.Gsp.Sgf.Runtime.Core.RoslynCodeGeneration",
+                 "EventManagerCode" : "sg",
+                 "Name" : "sg"
+              }
+        ]
+    },
+
+    "ConfigureServiceEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+		{
+                 "Code" : "sg",
+                 "ListenerName" : "sg",
+                 "AssemblyName" : "Inspur.Gsp.Sgf.Runtime.Core",
+                 "ImplClassName" : "Inspur.Gsp.Sgf.Runtime.Core.RoslynCodeGeneration",
+                 "EventManagerCode" : "sg",
+                 "Name" : "sg"
+              }
+        ]
+    },
+    "ConfigEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+        ]
+    },
+    "ControllerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            {
+               "Code" : "UTCTimeConverter",
+               "ListenerName" : "UTCTimeConverter",
+               "AssemblyName" : "Inspur.Ecp.Caf.I18nFramework.LocalClient",
+               "ImplClassName" : "Inspur.Ecp.Caf.I18nFramework.LocalClient.UTCTimeConvertListener",
+               "EventManagerCode" : "UTCTimeConverter",
+               "Name" : "UTCTimeConverter"
+            }
+        ]
+    },
+    "CtorControllerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+        ]
+    },
+    "RpcEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+        ]
+    }
+}

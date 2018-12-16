@@ -1,0 +1,32 @@
+{
+    "GSPWebApiConfigurations": [
+        {
+            "Application": "runtime",
+            "ServiceUnit": "wf",
+            "Assembly": "Inspur.Gsp.WF.Runtime.WebApi",
+            "Controllers": [
+                {
+                    "ServiceName": "wfrt",
+                    "Type": "Inspur.Gsp.WF.Runtime.WebApi.WFRuntimeController",
+                    "Version": "1.0"
+                },
+                {
+                    "ServiceName": "procDefs",
+                    "Type": "Inspur.Gsp.WF.Runtime.WebApi.ProcDefsController",
+                    "Version": "1.0"
+                },
+                {
+                    "ServiceName": "processes",
+                    "Path": "processes",
+                    "Type": "Inspur.Gsp.WF.Runtime.WebApi.ProcessDefinitionController",
+                    "Version": "1.0"
+                },
+                {
+                    "ServiceName": "bizLogs",
+                    "Type": "Inspur.Gsp.WF.Runtime.WebApi.BizLogsController",
+                    "Version": "1.0"
+                }
+            ]
+        }
+    ]
+}

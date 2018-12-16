@@ -1,0 +1,68 @@
+
+{
+    "MainEventConfiguration" :
+    {
+	   "EventListenerConfigurations" : [
+                   ]
+       
+    },
+    "MiddlewareEventConfiguration" :
+    {
+    },
+
+    "ConfigureServiceEventConfiguration" :
+    {
+         "EventListenerConfigurations" : [
+		    {
+                 "Code" : "ConsumerListenerService",
+                 "ListenerName" : "ConsumerListenerService",
+                 "AssemblyName" : "Inspur.Gsp.Svc.MQ.Service",
+                 "ImplClassName" : "Inspur.Gsp.Svc.MQ.Service.ConsumerListenerService",
+                 "EventManagerCode" : "ConsumerListenerService",
+                 "Name" : "ConsumerListenerService"
+             }
+         ]
+    },
+    "ConfigEventConfiguration" :
+    {
+        // "EventListenerConfigurations" : [
+        //     {
+        //         "Code" : "PlatformConfigExtendService",
+        //         "ListenerName" : "PlatformConfigExtendService",
+        //         "AssemblyName" : "ServerControllerTest",
+        //         "ImplClassName" : "ServerControllerTest.ConfigureEventTest",
+        //         "EventManagerCode" : "PlatformConfigExtendService",
+        //         "Name" : "PlatformConfigExtendService"
+        //     }
+        // ]
+    },
+    "ControllerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+			{
+				"Code": "TccWebEvent",
+				"ListenerName": "TccWebEvent",
+				"AssemblyName": "Inspur.Gsp.Tcc.Core",
+				"ImplClassName": "Inspur.Gsp.Tcc.Core.WebApi.TccRpcContext",
+				"EventManagerCode": "TccWebEvent",
+				"Name": "TccWebEvent"
+			}
+        ]
+    }
+	,
+    "RpcEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+			{
+				"Code": "TccInvokeListener",
+				"ListenerName": "TccInvokeListener",
+				"AssemblyName": "Inspur.Gsp.Tcc.Core",
+				"ImplClassName": "Inspur.Gsp.Tcc.Core.Service.TccInvokeListener",
+				"EventManagerCode": "TccInvokeListener",
+				"Name": "TccInvokeListener"
+			}
+        ]
+    }
+	
+	
+}

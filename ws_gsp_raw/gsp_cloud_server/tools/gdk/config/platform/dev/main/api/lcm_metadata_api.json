@@ -1,0 +1,42 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.Metadata.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "Metadata",
+          "Path": "/metadatas",
+          "Type": "Inspur.Gsp.Lcm.Metadata.WebApi.MetadataController",
+          "Version": "1.0"
+        },
+        {
+          "ServiceName": "MetadataProject",
+          "Path": "/metadata-projects",
+          "Type": "Inspur.Gsp.Lcm.Metadata.WebApi.MetadataProjectController",
+          "Version": "1.0"
+        },
+	    {
+          "ServiceName": "MetadataPackage",
+          "Path": "/metadata-packages",
+          "Type": "Inspur.Gsp.Lcm.Metadata.WebApi.MetadataPackageController",
+          "Version": "1.0"
+        },
+        {
+          "ServiceName": "Metadata4RefDto",
+          "Path": "/metadata4refdtos",
+          "Type": "Inspur.Gsp.Lcm.Metadata.WebApi.Metadata4RefDtoController",
+          "Version": "1.0"
+        },
+        {
+          "ServiceName": "MetadataConfig",
+          "Path": "/metadata-configs",
+          "Type": "Inspur.Gsp.Lcm.Metadata.WebApi.MetadataConfigController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

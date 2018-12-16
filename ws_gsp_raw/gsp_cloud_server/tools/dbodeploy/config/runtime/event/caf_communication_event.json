@@ -1,0 +1,93 @@
+
+{
+    "MainEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            
+        ]
+    },
+    "MiddlewareEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            // {
+            //     "Code" : "CanteenEvent",
+            //     "ListenerName" : "CanteenEvent",
+            //     "AssemblyName" : "Inspur.EcmCloud.Apps.Canteen.NewServiceWebApi",
+            //     "ImplClassName" : "Inspur.EcmCloud.Apps.Canteen.NewServiceWebApi.CanteenStateEventListener",
+            //     "EventManagerCode" : "CanteenEvent",
+            //     "Name" : "CanteenEvent"
+            // }
+			{
+                 "Code" : "sg",
+                 "ListenerName" : "sg",
+                 "AssemblyName" : "Inspur.Gsp.Sgf.Runtime.Core",
+                 "ImplClassName" : "Inspur.Gsp.Sgf.Runtime.Core.RoslynCodeGeneration",
+                 "EventManagerCode" : "sg",
+                 "Name" : "sg"
+              }
+        ]
+    },
+
+    "ConfigureServiceEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+		{
+                 "Code" : "sg",
+                 "ListenerName" : "sg",
+                 "AssemblyName" : "Inspur.Gsp.Sgf.Runtime.Core",
+                 "ImplClassName" : "Inspur.Gsp.Sgf.Runtime.Core.RoslynCodeGeneration",
+                 "EventManagerCode" : "sg",
+                 "Name" : "sg"
+              }
+        ]
+    },
+    "ConfigEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+        ]
+    },
+    "ControllerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+            {
+               "Code" : "UTCTimeConverter",
+               "ListenerName" : "UTCTimeConverter",
+               "AssemblyName" : "Inspur.Ecp.Caf.I18nFramework.LocalClient",
+               "ImplClassName" : "Inspur.Ecp.Caf.I18nFramework.LocalClient.UTCTimeConvertListener",
+               "EventManagerCode" : "UTCTimeConverter",
+               "Name" : "UTCTimeConverter"
+            }
+        ]
+    },
+    "CtorControllerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+        ]
+    },
+    "RpcClientEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+		   {
+               "Code" : "tccclient",
+               "ListenerName" : "tccclient",
+               "AssemblyName" : "Inspur.Gsp.Tcc.Core",
+               "ImplClassName" : "Inspur.Gsp.Tcc.Core.RpcAdpter.ClientListener",
+               "EventManagerCode" : "tccclient",
+               "Name" : "tccclient"
+            }
+        ]
+    },
+    "RpcServerEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+		   {
+               "Code" : "tcccserver",
+               "ListenerName" : "tcccserver",
+               "AssemblyName" : "Inspur.Gsp.Tcc.Core",
+               "ImplClassName" : "Inspur.Gsp.Tcc.Core.RpcAdpter.ServerListener",
+               "EventManagerCode" : "tcccserver",
+               "Name" : "tcccserver"
+            }
+        ]
+    }
+}

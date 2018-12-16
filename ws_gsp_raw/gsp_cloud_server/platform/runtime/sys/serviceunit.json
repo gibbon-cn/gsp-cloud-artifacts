@@ -1,0 +1,9 @@
+
+{
+    "ServiceUnitInfo" :
+    {
+        "ApplicationName" : "runtime",
+        "ServiceUnitName" : "sys",
+        "ApplicationPath" : "/platform/runtime/sys"
+    }
+}

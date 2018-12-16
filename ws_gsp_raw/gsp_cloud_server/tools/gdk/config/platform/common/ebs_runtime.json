@@ -1,0 +1,27 @@
+{
+    "EbsConfig": {
+        "MqEnable": "true",
+        "DbInfo": {
+            "DbType": "PgSQL",
+            "Code": "pg01",
+            "UserId": "netcore",
+            "Password": "aaaaaa",
+            "Source": "10.24.19.124:15432",
+            "Catalog": "netcore",
+            "Provider": "1",
+            "ConnectTimeout": "120",
+            "CommandTimeout": "600",
+            "MaxPoolSize": "100",
+            "Description": "ÊµÀý2"
+        },
+        "EbsFailureHandlerConfig": {
+            "RepublishStartTime": 1000,
+            "TimeoutStartTime": 1000,
+            "RepublishPeriod": 10000,
+            "TimeoutPeriod": 10000,
+            "PublishingTimeoutSecond": 700,
+            "MaxRetryCount": 7,
+            "MaxGetFailureCount": 50
+        }
+    }
+}

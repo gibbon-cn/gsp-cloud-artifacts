@@ -1,0 +1,39 @@
+﻿{
+	"Services": [
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.FlowsApi.IDataExportServer,Inspur.Gsp.Dip.IE.FlowsApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.FlowsController.DataExportServer,Inspur.Gsp.Dip.IE.FlowsController"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.FlowsApi.IDataImportServer,Inspur.Gsp.Dip.IE.FlowsApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.FlowsController.DataImportServer,Inspur.Gsp.Dip.IE.FlowsController"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.CompApi.IDBReadSrv,Inspur.Gsp.Dip.IE.CompApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.DBExtraction.DBReadSrv,Inspur.Gsp.Dip.IE.DBExtraction"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.CompApi.IDBWriteSrv,Inspur.Gsp.Dip.IE.CompApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.DataBaseLoad.DBWriteSrv,Inspur.Gsp.Dip.IE.DataBaseLoad"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.CompApi.IExcelReadSrv,Inspur.Gsp.Dip.IE.CompApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.ExcelExtraction.ExcelReadSrv,Inspur.Gsp.Dip.IE.ExcelExtraction"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.CompApi.IExcelWriteSrv,Inspur.Gsp.Dip.IE.CompApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.ExcelLoad.ExcelWriteSrv,Inspur.Gsp.Dip.IE.ExcelLoad"
+		},
+		{
+			"Interface": "Inspur.Gsp.Dip.IE.CompApi.IExcelTemplateLoader,Inspur.Gsp.Dip.IE.CompApi",
+			"Lifetime": "SINGLE-INSTANCE",
+			"Implemention": "Inspur.Gsp.Dip.IE.ExcelLoad.ExcelTemplateLoader,Inspur.Gsp.Dip.IE.ExcelLoad"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "GspAppEventListener" :
+    {
+        "EventListenerConfigurations" : [
+          {
+             "Code" : "frameworkevent",
+             "ListenerName" : "frameworkevent",
+             "AssemblyName" : "Inspur.Gsp.Test.Rtf.FrameworkEventImp",
+             "ImplClassName" : "Inspur.Gsp.Test.Rtf.FrameworkEventImp.FrameworkEventImp",
+             "EventManagerCode" : "FrameworkEventManager",
+             "Name" : "frameworkevent"
+          }            
+        ]
+    }
+}

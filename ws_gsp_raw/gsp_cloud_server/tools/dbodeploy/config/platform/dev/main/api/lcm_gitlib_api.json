@@ -1,0 +1,18 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.GitLib.Api",
+      "Controllers": [
+        {
+          "ServiceName": "GitController",
+          "Path": "/git",
+          "Type": "Inspur.Gsp.Lcm.GitLib.Api.GitController",
+          "Version": "1.0"
+        }
+      ]
+    }   
+  ] 
+}

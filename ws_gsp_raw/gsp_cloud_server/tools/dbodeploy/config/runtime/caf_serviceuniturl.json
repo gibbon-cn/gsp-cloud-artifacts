@@ -1,0 +1,11 @@
+
+{
+    "ServiceUnitUrl" :
+    {
+        "Communication" : "http://localhost:5000",
+        "sys" : "http://localhost:5000",
+	 "aifhelloworldsalesorder": "http://localhost:5000",
+        "aifhelloworldinvoice": "http://localhost:5000",
+        "wf": "http://localhost:5000"
+    }
+}

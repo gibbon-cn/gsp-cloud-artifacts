@@ -1,0 +1,22 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Svc.ValueMapping.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "ValueMappingController",
+          "Path": "/valuemapping",
+          "Type": "Inspur.Gsp.Svc.ValueMapping.Controller.ValueMappingController",
+          "Version": "1.0"
+        },{
+          "ServiceName": "VmSettingController",
+          "Path": "/valuemapping/setting",
+          "Type": "Inspur.Gsp.Svc.ValueMapping.Controller.VmSettingController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

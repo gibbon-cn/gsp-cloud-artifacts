@@ -1,0 +1,16 @@
+
+{
+    "UowEventConfiguration" :
+    {
+        "EventListenerConfigurations" : [
+			{
+               "Code" : "tcclistener",
+               "ListenerName" : "tcclistener",
+               "AssemblyName" : "Inspur.Gsp.Tcc.LuwAdpter",
+               "ImplClassName" : "Inspur.Gsp.Tcc.LuwAdpter.UowTccAction",
+               "EventManagerCode" : "tcclistener",
+               "Name" : "tcclistener"
+            }
+        ]
+    }
+}

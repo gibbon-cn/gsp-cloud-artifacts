@@ -1,0 +1,70 @@
+{
+	"GSPWebApiConfigurations": [{
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeEventController",
+					"Path": "beEvent",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeEventController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeActionController",
+					"Path": "beAction",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeActionController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeCreationRuleController",
+					"Path": "beCreationRule",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeCreationRuleController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeCreationProcessController",
+					"Path": "beCreationProcess",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeCreationProcessController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeWritebackRuleController",
+					"Path": "beWritebackRule",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeWritebackRuleController",
+					"Version": "1.0"
+				}
+			]
+		}, {
+			"Application": "dev",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Aif.WebApi",
+			"Controllers": [{
+					"ServiceName": "BeWritebackProcessController",
+					"Path": "beWritebackProcess",
+					"Type": "Inspur.Gsp.Aif.WebApi.BeWritebackProcessController",
+					"Version": "1.0"
+				}
+			]
+		}
+	]
+}

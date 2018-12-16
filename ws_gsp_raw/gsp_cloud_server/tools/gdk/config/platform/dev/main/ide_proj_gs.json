@@ -1,0 +1,73 @@
+{
+    "DocNodes": [{
+            "name": "aif",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "eapi",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "iapi",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "be",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "udt",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "bin",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "dbo",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "form",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "publish",
+            "path": "",
+            "type": "folder"
+        },
+		  {
+            "name": "event",
+            "path": "",
+            "type": "folder"
+        },
+		  {
+            "name": "action",
+            "path": "",
+            "type": "folder"
+        },
+		  {
+            "name": "pubsub",
+            "path": "",
+            "type": "folder"
+        },{
+            "name": "mapping",
+            "path": "",
+            "type": "folder"
+        },
+        {
+            "name": "{$name}.csproj",
+            "path": "",
+            "type": "file",
+            "content": "<Project Sdk=\"Microsoft.NET.Sdk\">\n  <PropertyGroup>\n    <TargetFramework>netstandard2.0</TargetFramework>\n  </PropertyGroup>\n  <PropertyGroup Condition={$conditionRelease}>\n    <OutputPath>{$outputPath}</OutputPath>\n  </PropertyGroup>\n  <PropertyGroup Condition={$conditionDebug}>\n    <OutputPath>{$outputPath}</OutputPath>\n  </PropertyGroup>\n  <PropertyGroup>\n    <AssemblyName>{$nameSpace}</AssemblyName>\n    <RootNamespace>{$nameSpace}</RootNamespace>\n  </PropertyGroup>\n  <ItemGroup>\n    <MetadataProject Include=\"nothing\">\n      <ID>{$guid1}</ID>\n      <Name>{$name}</Name>\n      <NameSpace>{$nameSpace}</NameSpace>\n      <MetadataPackageInfo>\n        <Name>{$packageName}</Name>\n        <Version />\n      </MetadataPackageInfo>\n      <MetadataPackageRefs />\n    </MetadataProject>\n  </ItemGroup>\n</Project>\n"
+        }
+    ]
+}

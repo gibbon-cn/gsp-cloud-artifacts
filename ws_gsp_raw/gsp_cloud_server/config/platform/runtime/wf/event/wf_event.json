@@ -1,0 +1,40 @@
+{
+	"TaskCenterEventConfigration":
+	{
+    "EventListenerConfigurations": [
+        {
+            "Code": "CanteenStartupEvent", //事件的编号
+            "Name": "CanteenStartupEvent", //事件的名称
+            "ListenerName": "ControllerEvent", //事件监听的名称
+            "EventManagerCode": "WorkItemEventManager", //事件管理类的编号
+            "AssemblyName": "Inspur.Gsp.WF.Event", //程序集名称
+            "ImplClassName": "Inspur.Gsp.WF.Event.TaskCenterListener" //实现类名称
+        }
+        
+    	]
+	},
+    "ProcessEventConfigration":{
+        "EventListenerConfigurations":[
+            {
+            "Code": "ProcessEvent", //事件的编号
+            "Name": "ProcessEvent", //事件的名称
+            "ListenerName": "ProcessEventTest", //事件监听的名称
+            "EventManagerCode": "ProcessInstanceEventManager", //事件管理类的编号
+            "AssemblyName": "ProcessComponent", //程序集名称
+            "ImplClassName": "ProcessComponent.ProcessEventTest" //实现类名称
+        }
+        ]
+    },
+    "ActivityEventConfigration":{
+        "EventListenerConfigurations":[
+            {
+            "Code": "ActivityEvent", //事件的编号
+            "Name": "ActivityEvent", //事件的名称
+            "ListenerName": "ActivityEventTest", //事件监听的名称
+            "EventManagerCode": "ActivityInstanceEventManager", //事件管理类的编号
+            "AssemblyName": "ProcessComponent", //程序集名称
+            "ImplClassName": "ProcessComponent.ActivityEventTest" //实现类名称
+        }
+        ]
+    }
+}

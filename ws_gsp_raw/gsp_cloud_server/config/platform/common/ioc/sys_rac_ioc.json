@@ -1,0 +1,24 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Sys.Rac.RunTime.Api.IDataPermission,Inspur.Gsp.Sys.Rac.RunTime.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.Rac.RunTime.Core.GSPDataPermission,Inspur.Gsp.Sys.Rac.RunTime.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Sys.Permission.RunTime.Api.IPermission,Inspur.Gsp.Sys.Permission.RunTime.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.Permission.RunTime.Core.PermissionManager,Inspur.Gsp.Sys.Permission.RunTime.Core"
+    },
+	{
+	 "Interface": "Inspur.Gsp.Sys.Rac.AssignTime.Api.IAuthorizationAssignManager,Inspur.Gsp.Sys.Rac.AssignTime.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.Rac.AssignTime.Core.AuthorizationAssignManager,Inspur.Gsp.Sys.Rac.AssignTime.Core"
+	},
+	{
+	 "Interface": "Inspur.Gsp.Sys.Rac.SecurityEntry.Api.ISecurityEntryService,Inspur.Gsp.Sys.Rac.SecurityEntry.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.Rac.SecurityEntry.Core.GSPSecurityEntryManager,Inspur.Gsp.Sys.Rac.SecurityEntry.Core"
+	}
+  ]
+}

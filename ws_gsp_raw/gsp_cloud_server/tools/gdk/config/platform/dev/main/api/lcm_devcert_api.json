@@ -1,0 +1,18 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.DevCert.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "DevCertController",
+          "Path": "/devcert",
+          "Type": "Inspur.Gsp.Lcm.DevCert.WebApi.DevCertController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

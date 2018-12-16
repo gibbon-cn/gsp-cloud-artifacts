@@ -1,0 +1,1237 @@
+[
+    {
+        "templateID": "CardForm",
+        "templateName": "内置卡片界面模板",
+        "templatePic": "assets/icon/form-create-wizard/card.png",
+        "templateDescription": "创建一个卡片界面",
+        "category": "card",
+        "domJson": {
+            "module": {
+                "id": "card-template",
+                "code": "card-template",
+                "name": "卡片模板",
+                "caption": "卡片模板",
+                "type": "Module",
+                "creator": "wang-xh",
+                "creationDate": "2018-08-30 14:56:00",
+                "showTitle": true,
+                "bootstrap": "card-template",
+                "schemas": [],
+                "states": [],
+                "actions": [
+                    {
+                        "serviceList": [
+                            {
+                                "name": "SaleOrderListService",
+                                "alias": "SaleOrderListService1",
+                                "path": "../../service/service"
+                            }
+                        ],
+                        "commandHandlers": [
+                            {
+                                "name": "FormLoadHandler",
+                                "commandName": "formLoad",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "load",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RemoveHandler",
+                                "commandName": "remove",
+                                "tasks": [
+                                    {
+                                        "name": "remove",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "remove",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RouteHandler",
+                                "commandName": "route",
+                                "tasks": [
+                                    {
+                                        "name": "route",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "route",
+                                        "params": [
+                                            {
+                                                "name": "action",
+                                                "value": "context.command.params.action"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "SearchHandler",
+                                "commandName": "search",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "search",
+                                        "params": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": [
+                                    {
+                                        "name": "formLoad"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": [
+                                    {
+                                        "name": "search"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": [
+                                    {
+                                        "name": "remove"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "viewmodels": [
+                    {
+                        "name": "SalesOrderViewModel",
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": "formLoad"
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": "search"
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": "remove"
+                            }
+                        ],
+                        "binding": {
+                            "name": "SalesOrderBindingData",
+                            "entity": "SalesOrderEntity",
+                            "repository": "SalesOrderRepository"
+                        },
+                        "form": {
+                            "name": "SalesOrderForm",
+                            "binding": "SalesOrderBindingData",
+                            "controls": [
+                                {
+                                    "name": "begin",
+                                    "type": "FormControl"
+                                },
+                                {
+                                    "name": "end",
+                                    "type": "FormControl"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "contents": [],
+                "components": [
+                    {
+                        "id": "pageContainer",
+                        "type": "ContentContainer",
+                        "appearance": {
+                            "class": "p-3"
+                        },
+                        "border": null,
+                        "font": null,
+                        "margin": null,
+                        "padding": null,
+                        "size": null,
+                        "contentTemplate": null,
+                        "headerTemplate": null,
+                        "title": null,
+                        "contents": [
+                            {
+                                "id": "pageHeader",
+                                "type": "FlexLayout",
+                                "appearance": null,
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": {
+                                    "width": "100%"
+                                },
+                                "title": null,
+                                "direction": "row",
+                                "justify": "between",
+                                "align": "center",
+                                "contents": [
+                                    {
+                                        "id": "pageHeaderTitle",
+                                        "type": "DisplayField",
+                                        "appearance": null,
+                                        "border": null,
+                                        "font": {
+                                            "family": null,
+                                            "size": "22px",
+                                            "color": null,
+                                            "bold": true,
+                                            "underscore": false,
+                                            "italic": false
+                                        },
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "title": "销售订单",
+                                        "binding": null,
+                                        "displayTemplate": ""
+                                    },
+                                    {
+                                        "id": "button-group1",
+                                        "type": "ButtonGroup",
+                                        "appearance": null,
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "contents": [
+                                            {
+                                                "id": "button-add",
+                                                "type": "Button",
+                                                "appearance": {
+                                                    "class": "mx-1"
+                                                },
+                                                "border": null,
+                                                "font": null,
+                                                "margin": null,
+                                                "padding": null,
+                                                "disable": false,
+                                                "icon": null,
+                                                "iconPosition": null,
+                                                "seperate": true,
+                                                "text": "新增",
+                                                "textAligment": "center",
+                                                "click": null,
+                                                "template": null
+                                            },
+                                            {
+                                                "id": "button-edit",
+                                                "type": "Button",
+                                                "appearance": {
+                                                    "class": "mx-1"
+                                                },
+                                                "border": null,
+                                                "font": null,
+                                                "margin": null,
+                                                "padding": null,
+                                                "size": null,
+                                                "disable": false,
+                                                "icon": null,
+                                                "iconPosition": null,
+                                                "seperate": true,
+                                                "text": "编辑",
+                                                "textAligment": "center",
+                                                "click": null,
+                                                "template": null
+                                            },
+                                            {
+                                                "id": "button-cancel",
+                                                "type": "Button",
+                                                "appearance": {
+                                                    "class": "mx-1"
+                                                },
+                                                "border": null,
+                                                "font": null,
+                                                "margin": null,
+                                                "padding": null,
+                                                "size": null,
+                                                "disable": false,
+                                                "icon": null,
+                                                "iconPosition": null,
+                                                "seperate": true,
+                                                "text": "取消",
+                                                "textAligment": "center",
+                                                "click": null,
+                                                "template": null
+                                            },
+                                            {
+                                                "id": "button-save",
+                                                "type": "Button",
+                                                "appearance": {
+                                                    "class": "mx-1"
+                                                },
+                                                "border": null,
+                                                "font": null,
+                                                "margin": null,
+                                                "padding": null,
+                                                "size": null,
+                                                "disable": false,
+                                                "icon": null,
+                                                "iconPosition": null,
+                                                "seperate": true,
+                                                "text": "保存",
+                                                "textAligment": "center",
+                                                "click": null,
+                                                "template": null
+                                            },
+                                            {
+                                                "id": "button-close",
+                                                "type": "Button",
+                                                "appearance": {
+                                                    "class": "mx-1"
+                                                },
+                                                "border": null,
+                                                "font": null,
+                                                "margin": null,
+                                                "padding": null,
+                                                "size": null,
+                                                "disable": false,
+                                                "icon": null,
+                                                "iconPosition": null,
+                                                "seperate": true,
+                                                "text": "关闭",
+                                                "textAligment": "center",
+                                                "click": null,
+                                                "template": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "mainContainer",
+                                "type": "ContentContainer",
+                                "appearance": {
+                                    "class": "mb-2 row k-form"
+                                },
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contents": []
+                            },
+                            {
+                                "id": "childTab",
+                                "type": "Tab",
+                                "appearance": null,
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contents": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "templateID": "listForm",
+        "templateName": "列表界面",
+        "templatePic": "assets/icon/form-create-wizard/list.png",
+        "templateDescription": "创建一个列表界面",
+        "category": "list",
+        "domJson": {
+            "module": {
+                "id": "list-template",
+                "code": "list-template",
+                "name": "列表模板",
+                "caption": "列表模板",
+                "type": "Module",
+                "creator": "wang-xh",
+                "creationDate": "2018-08-30 14:56:00",
+                "showTitle": true,
+                "bootstrap": "list-template",
+                "schemas": [],
+                "states": [],
+                "actions": [
+                    {
+                        "serviceList": [
+                            {
+                                "name": "SaleOrderListService",
+                                "alias": "SaleOrderListService1",
+                                "path": "../../service/service"
+                            }
+                        ],
+                        "commandHandlers": [
+                            {
+                                "name": "FormLoadHandler",
+                                "commandName": "formLoad",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "load",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RemoveHandler",
+                                "commandName": "remove",
+                                "tasks": [
+                                    {
+                                        "name": "remove",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "remove",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RouteHandler",
+                                "commandName": "route",
+                                "tasks": [
+                                    {
+                                        "name": "route",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "route",
+                                        "params": [
+                                            {
+                                                "name": "action",
+                                                "value": "context.command.params.action"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "SearchHandler",
+                                "commandName": "search",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "search",
+                                        "params": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": [
+                                    {
+                                        "name": "formLoad"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": [
+                                    {
+                                        "name": "search"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": [
+                                    {
+                                        "name": "remove"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "viewmodels": [
+                    {
+                        "name": "SalesOrderViewModel",
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": "formLoad"
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": "search"
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": "remove"
+                            }
+                        ],
+                        "binding": {
+                            "name": "SalesOrderBindingData",
+                            "entity": "SalesOrderEntity",
+                            "repository": "SalesOrderRepository"
+                        },
+                        "form": {
+                            "name": "SalesOrderForm",
+                            "binding": "SalesOrderBindingData",
+                            "controls": [
+                                {
+                                    "name": "begin",
+                                    "type": "FormControl"
+                                },
+                                {
+                                    "name": "end",
+                                    "type": "FormControl"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "contents": [],
+                "components": [
+                    {
+                        "id": "list-container1",
+                        "type": "ContentContainer",
+                        "appearance": {
+                            "class": "p-3"
+                        },
+                        "border": null,
+                        "font": null,
+                        "margin": null,
+                        "padding": null,
+                        "size": null,
+                        "contentTemplate": null,
+                        "headerTemplate": null,
+                        "title": null,
+                        "contents": [
+                            {
+                                "id": "button-group1",
+                                "type": "ButtonGroup",
+                                "appearance": {
+                                    "class": "mb-2"
+                                },
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contents": [
+                                    {
+                                        "id": "button-add",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "新增",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-edit",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "编辑",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-cancel",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "取消",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-save",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "保存",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-close",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "关闭",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "gridContainer",
+                                "type": "ContentContainer",
+                                "appearance": {
+                                    "class": "d-flex"
+                                },
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contentTemplate": null,
+                                "headerTemplate": null,
+                                "title": null,
+                                "contents": [
+                                    {
+                                        "id": "DataGrid1",
+                                        "type": "DataGrid",
+                                        "appearance": null,
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "dataSource": null,
+                                        "fields": [],
+                                        "focusedItem": null,
+                                        "focusedIndex": null,
+                                        "pagination": null,
+                                        "identifyField": null,
+                                        "multiSelect": null,
+                                        "selectable": null,
+                                        "itemTemplate": null,
+                                        "toolBar": null,
+                                        "sortable": false,
+                                        "sort": null,
+                                        "summary": null,
+                                        "groupable": null,
+                                        "group": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "templateID": "list-card",
+        "templateName": "内置列表和卡片界面模板",
+        "templatePic": "assets/icon/form-create-wizard/list-card.png",
+        "templateDescription": "创建一个列表和卡片界面",
+        "category": "listcard",
+        "domJson": {
+            "module": {
+                "id": "list-card-template",
+                "code": "list-card-template",
+                "name": "列表-卡片模板",
+                "caption": "列表-卡片模板",
+                "type": "Module",
+                "creator": "wang-xh",
+                "creationDate": "2018-08-30 14:56:00",
+                "showTitle": true,
+                "bootstrap": "list-card-template",
+                "schemas": [],
+                "states": [],
+                "actions": [
+                    {
+                        "serviceList": [
+                            {
+                                "name": "SaleOrderListService",
+                                "alias": "SaleOrderListService1",
+                                "path": "../../service/service"
+                            }
+                        ],
+                        "commandHandlers": [
+                            {
+                                "name": "FormLoadHandler",
+                                "commandName": "formLoad",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "load",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RemoveHandler",
+                                "commandName": "remove",
+                                "tasks": [
+                                    {
+                                        "name": "remove",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "remove",
+                                        "params": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "RouteHandler",
+                                "commandName": "route",
+                                "tasks": [
+                                    {
+                                        "name": "route",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "route",
+                                        "params": [
+                                            {
+                                                "name": "action",
+                                                "value": "context.command.params.action"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "SearchHandler",
+                                "commandName": "search",
+                                "tasks": [
+                                    {
+                                        "name": "loadData",
+                                        "service": "SaleOrderListService1",
+                                        "methodName": "search",
+                                        "params": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": [
+                                    {
+                                        "name": "formLoad"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": [
+                                    {
+                                        "name": "search"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": [
+                                    {
+                                        "name": "route"
+                                    }
+                                ],
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": [
+                                    {
+                                        "name": "remove"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "viewmodels": [
+                    {
+                        "name": "SalesOrderViewModel",
+                        "commands": [
+                            {
+                                "name": "formLoad",
+                                "commandHandler": "formLoad"
+                            },
+                            {
+                                "name": "search",
+                                "commandHandler": "search"
+                            },
+                            {
+                                "name": "add",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "add"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "edit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "view",
+                                "commandHandler": "route",
+                                "params": [
+                                    {
+                                        "name": "action",
+                                        "value": "view"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "remove",
+                                "commandHandler": "remove"
+                            }
+                        ],
+                        "binding": {
+                            "name": "SalesOrderBindingData",
+                            "entity": "SalesOrderEntity",
+                            "repository": "SalesOrderRepository"
+                        },
+                        "form": {
+                            "name": "SalesOrderForm",
+                            "binding": "SalesOrderBindingData",
+                            "controls": [
+                                {
+                                    "name": "begin",
+                                    "type": "FormControl"
+                                },
+                                {
+                                    "name": "end",
+                                    "type": "FormControl"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "contents": [],
+                "components": [
+                    {
+                        "id": "pageContainer",
+                        "type": "ContentContainer",
+                        "appearance": {
+                            "class": "p-3"
+                        },
+                        "border": null,
+                        "font": null,
+                        "margin": null,
+                        "padding": null,
+                        "size": null,
+                        "contentTemplate": null,
+                        "headerTemplate": null,
+                        "title": null,
+                        "contents": [
+                            {
+                                "id": "button-group1",
+                                "type": "ButtonGroup",
+                                "appearance": {
+                                    "class": "mb-2"
+                                },
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contents": [
+                                    {
+                                        "id": "button-add",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "新增",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-edit",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "编辑",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-cancel",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "取消",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-save",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "保存",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    },
+                                    {
+                                        "id": "button-close",
+                                        "type": "Button",
+                                        "appearance": {
+                                            "class": "mx-1"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "disable": false,
+                                        "icon": null,
+                                        "iconPosition": null,
+                                        "seperate": true,
+                                        "text": "关闭",
+                                        "textAligment": "center",
+                                        "click": null,
+                                        "template": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "gridCardContainer",
+                                "type": "ContentContainer",
+                                "appearance": {
+                                    "class": "d-flex"
+                                },
+                                "border": null,
+                                "font": null,
+                                "margin": null,
+                                "padding": null,
+                                "size": null,
+                                "contentTemplate": null,
+                                "headerTemplate": null,
+                                "title": null,
+                                "contents": [
+                                    {
+                                        "id": "grid22",
+                                        "type": "DataGrid",
+                                        "appearance": {
+                                            "class": "w-50"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "dataSource": null,
+                                        "fields": [],
+                                        "focusedItem": null,
+                                        "focusedIndex": null,
+                                        "pagination": null,
+                                        "identifyField": null,
+                                        "multiSelect": null,
+                                        "selectable": null,
+                                        "itemTemplate": null,
+                                        "toolBar": null,
+                                        "sortable": false,
+                                        "sort": null,
+                                        "summary": null,
+                                        "groupable": null,
+                                        "group": null
+                                    },
+                                    {
+                                        "id": "container_card",
+                                        "type": "ContentContainer",
+                                        "appearance": {
+                                            "class": "px-3 w-50 d-flex k-form flex-column"
+                                        },
+                                        "border": null,
+                                        "font": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "size": null,
+                                        "contentTemplate": null,
+                                        "headerTemplate": null,
+                                        "title": null,
+                                        "contents": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,24 @@
+﻿{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.Ebs.Communication.IMessagePublish,Inspur.Gsp.Ebs.Communication",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Ebs.Adapter.MessagePublishAdpter,Inspur.Gsp.Ebs.Adapter"
+    },
+    {
+      "Interface": "Inspur.Gsp.Ebs.Api.IEventPublish,Inspur.Gsp.Ebs.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Ebs.Core.Service.PublishService,Inspur.Gsp.Ebs.Core"
+    },
+    {
+      "Interface": "Inspur.Gsp.Ebs.Communication.IMessageSubscribe,Inspur.Gsp.Ebs.Communication",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Ebs.Core.Service.SubscribeService,Inspur.Gsp.Ebs.Core"
+    },
+    {
+      "Interface": "Inspur.Gsp.Ebs.Design.Api.View.ISubscriberVMService,Inspur.Gsp.Ebs.Design.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Ebs.Design.Core.Query.SubscriberVMService,Inspur.Gsp.Ebs.Design.Core"
+    }
+  ]
+}

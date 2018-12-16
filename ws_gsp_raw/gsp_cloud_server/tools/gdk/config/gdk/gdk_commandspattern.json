@@ -1,0 +1,181 @@
+{
+  "CommandAssemblies": [
+    {
+      "Name": "SetDevRoot",
+      "CommandHeaders": [
+        "set",
+        "devroot"
+      ],
+      "RequiredArgs": 1,
+      "Description":"Pattern: gsp set devroot <path>; Set project root path."
+    },
+    {
+      "Name": "CreateNewProject",
+      "CommandHeaders": [
+        "new",
+        "project"
+      ],
+      "OptionalArgs": [
+        {
+          "Name": "-namespace",
+          "ExistValue": true
+        },
+        {
+          "Name": "-packagename",
+          "ExistValue": true
+        }
+      ],
+      "RequiredArgs": 5,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Lcm.Metadata.Tools.dll",
+        "ClassName": "Inspur.Gsp.Lcm.Metadata.Tools.ToolsLocalManager",
+        "MethodName": "CreateProject"
+      },
+      "Description":"Pattern: gsp new project [-namespace <namespace>] [-packageName <packageName>] <projectName><appcode><sucode><suDepPath><boID>;Creat new Metadata Project. Run command and input params with specification."
+    },
+    {
+      "Name": "CreateNewSU",
+      "CommandHeaders": [
+        "new",
+        "su"
+      ],
+      "OptionalArgs": [{
+          "Name": "-path",
+          "ExistValue": true
+        }],
+      "RequiredArgs": 3,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Ecp.Caf.ServiceUnit.Console.dll",
+        "ClassName": "Inspur.Ecp.Caf.ServiceUnit.Console.DirectoryService",
+        "MethodName": "CreateDirectory"
+      },
+      "Description" : "pattern: gsp new su [-path <servicePath>] <appName> <serviceUnitCode> <serviceUnitName>;Create new Service Unit. Run command and input params with specification."
+    },
+    {
+      "Name": "GenerateDBO",
+      "CommandHeaders": [
+        "begen",
+        "dbo"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 1,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "GenerateDbo"
+      },
+      "Description":"Pattern: gsp begen dbo <xxx.be>;Generate DBO based on be metadata(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "GenerateComponent",
+      "CommandHeaders": [
+        "begen",
+        "comp"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 1,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "GenerateComponent"
+      },
+      "Description": "Pattern: gsp begen comp <xxx.be>;Generate component based on be metadata(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "GenerateComponentCode",
+      "CommandHeaders": [
+        "begen",
+        "compcode"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 1,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "GenerateComponentCode"
+      },
+      "Description":"Pattern: gsp begen compcode <xxx.be>;Generate component code based on be metadata(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "PreBuildBe",
+      "CommandHeaders": [
+        "beprebuild"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 1,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "PreBuild"
+      },
+      "Description":"Pattern: gsp beprebuild <xxx.be>;Pre build be metadata(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "BuildBe",
+      "CommandHeaders": [
+        "bebuild"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 2,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "Build"
+      },
+      "Description": "Pattern: gsp bebuild <xxx.be><deployPath>;Build be metadata(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "PulishBeService",
+      "CommandHeaders": [
+        "bepublish",
+        "service"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 1,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Bef.BEManager.dll",
+        "ClassName": "Inspur.Gsp.Bef.BEManager.Service.BeManagerService",
+        "MethodName": "PublishService"
+      },
+      "Description":"Pattern: gsp bepublish service <xxx.be>;Publish be metadata service(Execute in the directory that contains the be metadata file)."
+    },
+    {
+      "Name": "Build",
+      "CommandHeaders": [
+        "Build"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 0,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Lcm.Metadata.PackageBuilder.dll",
+        "ClassName": "Inspur.Gsp.Lcm.Metadata.PackageBuilder.PackageManager",
+        "MethodName": "GeneratePackage"
+      },
+      "Description":"Pattern: gsp build;Make metadata and build project(Execute in the directory of the gsp project)."
+    },
+    {
+      "Name": "CreateNewMetadata",
+      "CommandHeaders": [
+        "new",
+        "metadata"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 0,
+      "MainEntry": {
+        "AssemblyName": "Inspur.Gsp.Lcm.Metadata.Tools.dll",
+        "ClassName": "Inspur.Gsp.Lcm.Metadata.Tools.ToolsLocalManager",
+        "MethodName": "CreateMetadata"
+      },
+      "Description":"Pattern: gsp new metadata;Creat new Metadata. Run command and input params with specification."
+    },
+    {
+      "Name": "DeployProject",
+      "CommandHeaders": [
+        "deploy"
+      ],
+      "OptionalArgs": [],
+      "RequiredArgs": 0,
+      "Description":"Pattern: gsp deploy;Deploy a project(Execute in the directory of the gsp project)."
+    }
+  ]
+}

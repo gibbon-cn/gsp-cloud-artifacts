@@ -1,0 +1,10 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.WF.Runtime.Api.IProcessDefinitionService,Inspur.Gsp.WF.Runtime.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.WF.Engine.Service.ProcessDefinitionService,Inspur.Gsp.WF.Engine"
+    } 
+    
+  ]
+}

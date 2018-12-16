@@ -1,0 +1,12 @@
+﻿{
+"ResourceRTConfig": {
+    "ResourcesInvokeList": [
+        {
+          "Code": "VO",
+          "Name": "VO",
+          "DescAssembly": "Inspur.Gsp.Sgf.RunTime.Adapter",
+          "DescClassName": "Inspur.Gsp.Sgf.RunTime.Adapter.ViewModelAdapter"
+        }
+      ]
+    }
+}

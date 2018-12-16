@@ -1,0 +1,542 @@
+﻿{
+    "MetadataConfiguration": [{
+            "Common": {
+                "Type": "Inspur.Gsp.Sgf.Api",
+                "Assembly": "Inspur.Gsp.Sgf.Api.dll",
+                "TypeCode": "ExternalApi",
+                "TypeName": "外部服务定义"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.JsonSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.TransferSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.SgMetadataInitializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            }
+        }, 
+		{
+		"Common": {
+                "Type": "Inspur.Gsp.Sgf.Api",
+                "Assembly": "Inspur.Gsp.Sgf.Api.dll",
+                "TypeCode": "InternalApi",
+                "TypeName": "内部服务定义"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.InternalServiceJsonSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.InternalServiceTransferSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.InternalServiceInitializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            }
+        },{
+            "Common": {
+                "Type": "Inspur.Gsp.Bef.BizEntity.GSPBusinessEntity",
+                "Assembly": "Inspur.GSP.Bef.BizEntity.dll",
+                "TypeCode": "GSPBusinessEntity",
+                "TypeName": "业务实体"
+            },
+            "Serializer": {
+                "Name": " Inspur.Gsp.Bef.BEManager.ContentSerializer",
+                "Assembly": " Inspur.Gsp.Bef.BEManager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.BEManager.TransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.BEManager.dll"
+            },
+            "MetadataContent": {
+                "Name": "Inspur.Gsp.Bef.BEManager.MetadataEventListener",
+                "Assembly": "Inspur.Gsp.Bef.BEManager.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Bef.BEManager.MetadataContentManager",
+                "Assembly": "Inspur.Gsp.Bef.BEManager.dll"
+            }
+        },
+        {
+            "Common": {
+                "Type": "Inspur.Gsp.Component.Api",
+                "Assembly": "Inspur.Gsp.Component.Api.dll",
+                "TypeCode": "Component",
+                "TypeName": "构件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Component.Manager.JsonSerializer",
+                "Assembly": "Inspur.Gsp.Component.Manager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Component.Manager.TransferJsonSerializer",
+                "Assembly": "Inspur.Gsp.Component.Manager.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Resource.Component.Base.GSPComponent",
+                "Assembly": "Inspur.Gsp.Bef.Component.dll",
+                "TypeCode": "BEMgrComponent",
+                "TypeName": "自定义构件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentTransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+			"Manager": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Initialization.ComponentMetadataContentManager",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Resource.Component.Base.GSPComponent",
+                "Assembly": "Inspur.Gsp.Bef.Component.dll",
+                "TypeCode": "BEComponent",
+                "TypeName": "业务实体构件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentTransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+			"Manager": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Initialization.ComponentMetadataContentManager",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Resource.Component.Base.GSPComponent",
+                "Assembly": "Inspur.Gsp.Bef.Component.dll",
+                "TypeCode": "DeterminationComponent",
+                "TypeName": "联动计算构件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentTransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+			"Manager": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Initialization.ComponentMetadataContentManager",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Resource.Component.Base.GSPComponent",
+                "Assembly": "Inspur.Gsp.Bef.Component.dll",
+                "TypeCode": "ValidationComponent",
+                "TypeName": "校验规则构件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentTransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            },
+			"Manager": {
+                "Name": "Inspur.Gsp.Bef.ComponentManager.Initialization.ComponentMetadataContentManager",
+                "Assembly": "Inspur.Gsp.Bef.ComponentManager.dll"
+            }
+        },
+        {
+            "Common": {
+                "Type": "Inspur.Gsp.Udt.DesignTime.Api",
+                "Assembly": "Inspur.Gsp.Udt.DesignTime.Api.dll",
+                "TypeCode": "UnifiedDataType",
+                "TypeName": "业务字段元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Udt.DesignTime.Manager.UdtManager",
+                "Assembly": "Inspur.Gsp.Udt.DesignTime.Manager.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Udt.DesignTime.Manager.UdtManager",
+                "Assembly": "Inspur.Gsp.Udt.DesignTime.Manager.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Udt.DesignTime.Manager.MetadataContentManager",
+                "Assembly": "Inspur.Gsp.Udt.DesignTime.Manager.dll"
+            }
+        },
+        {
+            "Common": {
+                "Type": "Inspur.Gsp.FormServer.ViewModel.GSPViewModel",
+                "Assembly": "Inspur.Gsp.FormServer.ViewModel.dll",
+                "TypeCode": "GSPViewModel",
+                "TypeName": "视图模型"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.FormServer.VMManager.ContentSerializer",
+                "Assembly": "Inspur.Gsp.FormServer.VMManager.dll"
+            },
+			 "TransferSerializer": {
+                "Name": "Inspur.Gsp.Bef.BEManager.TransferSerializer",
+                "Assembly": "Inspur.Gsp.Bef.BEManager.dll"
+            }
+        },
+
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Sgf.Api",
+                "Assembly": "Inspur.Gsp.Sgf.Api.dll",
+                "TypeCode": "Event",
+                "TypeName": "事件元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.EventSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.EventTransferSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.EventMetadataInitializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Sgf.Api",
+                "Assembly": "Inspur.Gsp.Sgf.Api.dll",
+                "TypeCode": "Action",
+                "TypeName": "动作元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.ActionSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.ActionTransferSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.ActionMetadataInitializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            }
+        },
+		{
+            "Common": {
+                "Type": "Inspur.Gsp.Sgf.Api",
+                "Assembly": "Inspur.Gsp.Sgf.Api.dll",
+                "TypeCode": "PubSub",
+                "TypeName": "发布订阅关系元数据"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.PubSubSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "TransferSerializer": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.PubSubTransferSerializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Sgf.DesignTime.Core.PubSubMetadataInitializer",
+                "Assembly": "Inspur.Gsp.Sgf.DesignTime.Core.dll"
+            }
+        },
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeEvent",
+				"TypeName": "业务事件"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeEventMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeEventMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeEventMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeAction",
+				"TypeName": "业务动作"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeActionMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeActionMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeActionMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},	
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeCreationRule",
+				"TypeName": "生单规则"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeCreationProcess",
+				"TypeName": "生单流程"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeCreationProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeWritebackRule",
+				"TypeName": "回写规则"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackRuleMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeWritebackProcess",
+				"TypeName": "回写流程"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackProcessMetadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		},
+		{
+			"Common": {
+				"Type": "Inspur.Gsp.Aif.Api.Metadata",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll",
+				"TypeCode": "BeFlowchart",
+				"TypeName": "业务流程图"
+			},
+			"Serializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeFlowchartMetaData",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"TransferSerializer": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeFlowchartMetaData",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			},
+			"Manager": {
+				"Name": "Inspur.Gsp.Aif.Api.Metadata.BeFlowchartMetaData",
+				"Assembly": "Inspur.Gsp.Aif.Api.dll"
+			}
+		}
+        ,
+        {
+            "Common": {
+                "Type": "Inspur.Gsp.Svc.Mapping.Design.Api.MappingRule",
+                "Assembly": "Inspur.Gsp.Svc.Mapping.Design.Api.dll",
+                "TypeCode": "MappingRule",
+                "TypeName": "Mapping规则"
+            },
+            "Serializer": {
+                "Name": "Inspur.Gsp.Svc.MappingDesignerCore.MappingSerializer",
+                "Assembly": "Inspur.Gsp.Svc.MappingDesignerCore.dll"
+            },
+             "TransferSerializer": {
+                "Name": "Inspur.Gsp.Svc.MappingDesignerCore.MappingTransferSerializer",
+                "Assembly": "Inspur.Gsp.Svc.MappingDesignerCore.dll"
+            },
+            "Manager": {
+                "Name": "Inspur.Gsp.Svc.MappingDesignerCore.MappingContentManager",
+                "Assembly": "Inspur.Gsp.Svc.MappingDesignerCore.dll"
+            }
+        }
+    ],
+    "MetadataType": [{
+            "TypeCode": "GSPBusinessEntity",
+            "TypeName": "业务实体",
+            "Description": "与关键业务相关的动态的概念性对象",
+            "Postfix": ".be"
+        },
+        {
+            "TypeCode": "Component",
+            "TypeName": "构件",
+            "Description": "构件",
+            "Postfix": ".cmp"
+        },
+		{
+            "TypeCode": "BEMgrComponent",
+            "TypeName": "自定义构件",
+            "Description": "自定义构件元数据",
+            "Postfix": ".beMgrCmp"
+        },
+		{
+            "TypeCode": "BEComponent",
+            "TypeName": "业务实体构件",
+            "Description": "业务实体构件元数据",
+            "Postfix": ".beCmp"
+        },
+		{
+            "TypeCode": "DeterminationComponent",
+            "TypeName": "联动计算构件",
+            "Description": "联动计算构件元数据",
+            "Postfix": ".beDtmCmp"
+        },
+		{
+            "TypeCode": "ValidationComponent",
+            "TypeName": "校验规则构件",
+            "Description": "校验规则构件元数据",
+            "Postfix": ".beValCmp"
+        },
+        {
+            "TypeCode": "ExternalApi",
+            "TypeName": "外部服务定义",
+            "Description": "ExternalApi元数据",
+            "Postfix": ".eapi"
+        },
+		{
+            "TypeCode": "InternalApi",
+            "TypeName": "内部服务定义",
+            "Description": "InternalApi元数据",
+            "Postfix": ".iapi"
+        },
+        {
+            "TypeCode": "UnifiedDataType",
+            "TypeName": "业务字段元数据",
+            "Description": "业务字段元数据",
+            "Postfix": ".udt"
+        },
+        {
+            "TypeCode": "Event",
+            "TypeName": "事件",
+            "Description": "Ebs事件定义",
+            "Postfix": ".event"
+        },
+{
+            "TypeCode": "Action",
+            "TypeName": "动作",
+            "Description": "Ebs动作定义",
+            "Postfix": ".action"
+        },
+{
+            "TypeCode": "PubSub",
+            "TypeName": "发布订阅关系",
+            "Description": "Ebs发布订阅关系",
+            "Postfix": ".pubsub"
+        },
+{
+            "TypeCode": "GSPViewModel",
+            "TypeName": "视图模型",
+            "Description": "视图模型",
+            "Postfix": ".vm"
+        }, {
+			"TypeCode": "BeEvent",
+			"TypeName": "业务事件",
+			"Description": "业务事件",
+			"Postfix": ".aifev"
+		},{
+			"TypeCode": "BeAction",
+			"TypeName": "业务动作",
+			"Description": "业务动作",
+			"Postfix": ".aifac"
+		},
+		{
+			"TypeCode": "BeCreationRule",
+			"TypeName": "生单规则",
+			"Description": "生单规则",
+			"Postfix": ".aifcr"
+		},{
+			"TypeCode": "BeCreationProcess",
+			"TypeName": "生单流程",
+			"Description": "生单流程",
+			"Postfix": ".aifcp"
+		},{
+			"TypeCode": "BeWritebackRule",
+			"TypeName": "回写规则",
+			"Description": "回写规则",
+			"Postfix": ".aifwr"
+		},{
+			"TypeCode": "BeWritebackProcess",
+			"TypeName": "回写流程",
+			"Description": "回写流程",
+			"Postfix": ".aifwp"
+		},
+		{
+			"TypeCode": "BeFlowchart",
+			"TypeName": "业务流程图",
+			"Description": "业务流程图",
+			"Postfix": ".aifbf"
+		},
+        {
+            "TypeCode": "MappingRule",
+            "TypeName": "Mapping规则",
+            "Description": "Mapping规则",
+            "Postfix": ".map"
+        }
+    ]
+}

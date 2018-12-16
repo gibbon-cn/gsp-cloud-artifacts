@@ -1,0 +1,66 @@
+{
+  "ComponentMetadata": {
+    "ComponentList": [
+      {
+        "Common": {
+          "Type": "Inspur.Gsp.Bef.Component.BE.BEComponent",
+          "Assembly": "Inspur.Gsp.Bef.Component",
+          "TypeCode": "BEComponent",
+          "TypeName": "BEComponent构件"
+        },
+        "Serializer": {
+          "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSingleSerializer",
+          "Assembly": "Inspur.Gsp.Bef.ComponentManager"
+        }
+      },
+      {
+        "Common": {
+          "Type": "Inspur.Gsp.Bef.Component.BEMgr.BEMgrComponent",
+          "Assembly": "Inspur.Gsp.Bef.Component",
+          "TypeCode": "BEMgrComponent",
+          "TypeName": "BEMgrComponent构件"
+        },
+        "Serializer": {
+          "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSingleSerializer",
+          "Assembly": "Inspur.Gsp.Bef.ComponentManager"
+        }
+      },
+      {
+        "Common": {
+          "Type": "Inspur.Gsp.Bef.Component.Determination.DeterminationComponent",
+          "Assembly": "Inspur.Gsp.Bef.Component",
+          "TypeCode": "DeterminationComponent",
+          "TypeName": "DeterminationComponent构件"
+        },
+        "Serializer": {
+          "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSingleSerializer",
+          "Assembly": "Inspur.Gsp.Bef.ComponentManager"
+        }
+      },
+	  {
+        "Common": {
+          "Type": "Inspur.Gsp.Resource.Component.UDTValidation.UDTValidComponent",
+          "Assembly": "Inspur.Gsp.Resource.Component",
+          "TypeCode": "UDTValidComponent",
+          "TypeName": "UDTValidComponent构件"
+        },
+        "Serializer": {
+          "Name": "Inspur.Gsp.Resource.Component.Serializer.ComponentXmlSerializer",
+          "Assembly": "Inspur.Gsp.Resource.Component"
+        }
+      },
+      {
+        "Common": {
+          "Type": "Inspur.Gsp.Bef.Component.Validation.ValidationComponent",
+          "Assembly": "Inspur.Gsp.Bef.Component",
+          "TypeCode": "ValidationComponent",
+          "TypeName": "ValidationComponent构件"
+        },
+        "Serializer": {
+          "Name": "Inspur.Gsp.Bef.ComponentManager.Serializer.ComponentSingleSerializer",
+          "Assembly": "Inspur.Gsp.Bef.ComponentManager"
+        }
+      }
+    ]
+  }
+}

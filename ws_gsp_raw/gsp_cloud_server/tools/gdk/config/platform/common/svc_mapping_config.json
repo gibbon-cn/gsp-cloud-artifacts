@@ -1,0 +1,22 @@
+{
+    "ConfigSection": {
+        "MappingConfigs": [
+            {
+                "ID": "01",
+                "Assembly": "Inspur.Gsp.Svc.Mapping.Runtime.SalesOrders_InvoiceMapping.Service",
+                "DefaultNamespace": "Inspur.Gsp.Svc.Mapping.Runtime.SalesOrders_InvoiceMapping.Service"
+            },
+            {
+                "ID": "03",
+                "Assembly": "Inspur.Gsp.Svc.Mapping.Runtime.ReverseMapping2.Service",
+                "DefaultNamespace": "Inspur.Gsp.Svc.Mapping.Runtime.ReverseMapping2.Service"
+            },
+            {
+                "ID": "02",
+                "Assembly": "Inspur.Gsp.Svc.Mapping.Runtime.ReverseMapping.Service",
+                "DefaultNamespace": "Inspur.Gsp.Svc.Mapping.Runtime.ReverseMapping.Service"
+            },
+            
+        ]
+    }
+}

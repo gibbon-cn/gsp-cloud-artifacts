@@ -1,0 +1,24 @@
+{
+  "GSPWebApiConfigurations": [
+	{
+      "Application": "runtime",
+      "ServiceUnit": "wf",
+      "Assembly": "Inspur.Gsp.WF.Runtime.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "workitem",
+          "Path": "workitem",
+          "Type": "Inspur.Gsp.WF.Runtime.WebApi.TaskController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "wfrt",
+          "Path": "wfrt",
+          "Type": "Inspur.Gsp.WF.Runtime.WebApi.WFRuntimeController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}
+

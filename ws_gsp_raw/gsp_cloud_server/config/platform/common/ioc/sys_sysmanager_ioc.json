@@ -1,0 +1,24 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Sys.SysManager.Api.IUserManager,Inspur.Gsp.Sys.SysManager.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.SysManager.Core.GSPUserManager,Inspur.Gsp.Sys.SysManager.Core"
+    },
+    {
+      "Interface": "Inspur.Gsp.Sys.SysManager.Api.IUserAssPositionManager,Inspur.Gsp.Sys.SysManager.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.SysManager.Core.GSPUserAssPosManager,Inspur.Gsp.Sys.SysManager.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Sys.SysManager.Api.IUserExtendManager,Inspur.Gsp.Sys.SysManager.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.SysManager.Core.GSPUserExtendManager,Inspur.Gsp.Sys.SysManager.Core"
+    },
+	{
+      "Interface": "Inspur.Gsp.Sys.SysManager.Api.IUserPosOrgManager,Inspur.Gsp.Sys.SysManager.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sys.SysManager.Core.GSPUserPosOrgManager,Inspur.Gsp.Sys.SysManager.Core"
+    }
+  ]
+}

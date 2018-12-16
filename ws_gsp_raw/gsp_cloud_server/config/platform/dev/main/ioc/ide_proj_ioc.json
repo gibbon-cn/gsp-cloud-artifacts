@@ -1,0 +1,133 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.FS.Api.IFsService,Inspur.Gsp.Lcm.CloudDev.FS.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.FS.Manager.FsService,Inspur.Gsp.Lcm.CloudDev.FS.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectService,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectService,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Search.Api.ISearcher,Inspur.Gsp.Lcm.CloudDev.Search.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Search.Manager.LuceneSearcher,Inspur.Gsp.Lcm.CloudDev.Search.Manager"
+    },
+
+    
+    
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectHandler,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.CreateBaseProjectTypeHandler,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectHandler,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.InitBaseProjectTypeHandler,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectHandler,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions.GSProject.CreateGSProjectHandler,Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectHandler,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions.GSProject.GSProjectTypeHandler,Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.ProjectTypeDef,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions.GSProject.GSProjectType,Inspur.Gsp.Lcm.CloudDev.Project.ProjectTypeExtensions"
+    },
+    
+    
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectConfigRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectConfigRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectHandlerRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectHandlerRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.ProjectTypeRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Api.ProjectTypeRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Api"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectImporter,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ZipProjectImporter,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectImporter,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.GitLib.Manager.GitProjectImporter,Inspur.Gsp.Lcm.GitLib.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectImporter,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.GitLib.Manager.GitHubProjectImporter,Inspur.Gsp.Lcm.GitLib.Manager"
+    },
+    
+    
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IRegisteredProjectFactory,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.RegisteredProjectFactory,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectTypesFactory,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectTypesFactory,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IFsDtoConverter,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.SimpleFsDtoConverter,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectSynchronizer,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.WorkspaceProjectSynchronizer,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.OnWorkspaceStartProjectInitializer,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.OnWorkspaceStartProjectInitializer,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectServiceLinksInjector,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectServiceLinksInjector,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectQualifier,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.SimpleProjectQualifier,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Api.IProjectTypeResolver,Inspur.Gsp.Lcm.CloudDev.Project.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Api.SimpleProjectTypeResolver,Inspur.Gsp.Lcm.CloudDev.Project.Api"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectImportService,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectImportService,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    },
+    {
+      "Interface": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectImporterRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.CloudDev.Project.Manager.ProjectImporterRegistry,Inspur.Gsp.Lcm.CloudDev.Project.Manager"
+    }
+  ]
+}

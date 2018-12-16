@@ -1,0 +1,15 @@
+{
+  "LuwEventConfiguration": {
+    "EventListenerConfigurations": [
+	    {
+                "Code" : "LuwEventManager",
+                "ListenerName" : "LuwEventManager",
+                "AssemblyName" : "Inspur.Gsp.Tcc.LuwAdpter",
+                "ImplClassName" : "Inspur.Gsp.Tcc.LuwAdpter.LuwTccAction",
+                "EventManagerCode" : "LuwEventManager",
+                "Name" : "LuwEventManager"
+        }
+
+    ]
+  }
+}

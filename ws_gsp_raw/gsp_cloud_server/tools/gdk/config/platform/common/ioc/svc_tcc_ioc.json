@@ -1,0 +1,19 @@
+﻿{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.Tcc.Api.ITccRpcService,Inspur.Gsp.Tcc.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Tcc.Core.Service.TccRpcService,Inspur.Gsp.Tcc.Core"
+    },
+    {
+      "Interface": "Inspur.Gsp.Tcc.Api.ITransactionAgent,Inspur.Gsp.Tcc.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Tcc.Core.Service.TransactionAgent,Inspur.Gsp.Tcc.Core"
+    },
+    {
+      "Interface": "Inspur.Gsp.Tcc.Api.ITransactionRepository,Inspur.Gsp.Tcc.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Tcc.Core.Repository.TransactionRepository,Inspur.Gsp.Tcc.Core"
+    }
+  ]
+}

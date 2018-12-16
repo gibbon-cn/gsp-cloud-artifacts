@@ -1,0 +1,103 @@
+﻿/*
+  配置文件的路径
+  Glbal
+    -WebApi
+      -GSP
+        -CafWebApi.json
+        -SysWebApi.json
+        -....
+      -BI
+      -FI
+*/
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.SysManager.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "user",
+          "Path": "/users",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.UserController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "sysOrg",
+          "Path": "/sysOrgs",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.SysOrganizationController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "position",
+          "Path": "/positions",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.PositionController",
+          "Version": "1.0"
+        },
+	    {
+          "ServiceName": "role",
+          "Path": "/roles",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.RoleController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "userPos",
+          "Path": "/user-position",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.UserPosController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "posRole",
+          "Path": "/position-role",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.PosRoleController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "RoleOp",
+          "Path": "/Role-Operation",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.RoleAssOpController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "UserRole",
+          "Path": "/user-Role",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.UserRoleController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "UserGroup",
+          "Path": "/usergroups",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.UserGroupController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "PosGroup",
+          "Path": "/posgroups",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.PosGroupController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "RoleGroup",
+          "Path": "/rolegroups",
+          "Type": "Inspur.Gsp.Sys.SysManager.Controller.RoleGroupController",
+          "Version": "1.0"
+        }
+      ]
+    },
+	 {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.FuncOp.Controller",
+      "Controllers": 
+	  [
+        {
+          "ServiceName": "FuncOperation",
+          "Path": "/funcOperations",
+          "Type": "Inspur.Gsp.Sys.FuncOp.Controller.FuncOperationController",
+          "Version": "1.0"
+        }
+	  ]
+	}
+	 
+  ] 
+}

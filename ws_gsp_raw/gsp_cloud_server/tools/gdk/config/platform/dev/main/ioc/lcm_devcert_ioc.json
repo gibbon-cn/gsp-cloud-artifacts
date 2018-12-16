@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.DevCert.Api.IDevCertService,Inspur.Gsp.Lcm.DevCert.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.DevCert.Manager.DevCertImpl,Inspur.Gsp.Lcm.DevCert.Manager"
+    }
+  ]
+}

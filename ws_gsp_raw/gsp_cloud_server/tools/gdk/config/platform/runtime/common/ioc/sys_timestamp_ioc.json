@@ -1,0 +1,13 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.Timestamp.DelTableConfig.Api.IDelTableConfigService,Inspur.Gsp.Svc.Timestamp.DelTableConfig.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.Timestamp.DelTableConfig.Service.DelTableConfigService,Inspur.Gsp.Svc.Timestamp.DelTableConfig.Service"
+    }, {
+      "Interface": "Inspur.Gsp.Svc.Timestamp.DeleteData.Api.IGspDelRecordService,Inspur.Gsp.Svc.Timestamp.DeleteData.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.Timestamp.DelDataRecord.Core.GspDelRecordService,Inspur.Gsp.Svc.Timestamp.DelDataRecord.Core"
+    }
+  ]
+}

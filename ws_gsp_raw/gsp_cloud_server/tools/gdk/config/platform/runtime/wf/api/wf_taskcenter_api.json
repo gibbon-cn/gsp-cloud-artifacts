@@ -1,0 +1,27 @@
+{
+  "GSPWebApiConfigurations": [
+    
+    {
+      "Application": "runtime",
+      "ServiceUnit": "wf",
+      "Assembly": "Inspur.Gsp.WF.TaskCenter.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "task",
+          "Type": "Inspur.Gsp.WF.TaskCenter.WebApi.GSPTaskInfosController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "taskCategory",
+          "Type": "Inspur.Gsp.WF.TaskCenter.WebApi.TaskCategoriesController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "gsptask",
+          "Type": "Inspur.Gsp.WF.TaskCenter.WebApi.GSPTasksController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "RepositoryConfiguration": {
+    "SqlGeneratorConfigs": 
+      [
+        {
+          "commentID": "配置节ID，此处为DbType",
+          "ID": "",
+          "commentAssembly": "实现类程序集名称",
+          "Assembly": "AssemblyName",
+          "commentClass": "实现类全名",
+          "Class": "ClassFullName"
+        }
+      ]
+  }
+}

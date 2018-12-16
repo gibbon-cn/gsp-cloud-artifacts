@@ -1,0 +1,17 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Udt.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "UdtWebApi",
+          "Path": "/udt",
+          "Type": "Inspur.Gsp.Udt.WebApi.UdtController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

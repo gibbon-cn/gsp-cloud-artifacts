@@ -1,0 +1,2280 @@
+[
+    {
+        "Description": "",
+        "Mapping": {
+            "MapType": 0,
+            "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+            "TargetMetadataPkgName": "",
+            "TargetObjId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee"
+        },
+        "MainObject": {
+            "ContainElements":[
+                {
+                    "ID":"fc1f2ca8-085f-4369-82f5-b5b4040a2a96",
+                    "Code":"ID",
+                    "Name":"ID",
+                    "LabelID":"ID",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":36,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"b557b471-c10e-4bb4-a5b6-b6033f7ee7ce",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"595c2908-8652-4dd0-bbbb-58b0a4a4562b",
+                    "Code":"Code",
+                    "Name":"订单编号",
+                    "LabelID":"Code",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":60,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"5c86ee0b-d72d-4a39-98e9-1d6d9ff66c6f",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"ebc2fc89-1fae-4232-a585-eaee46d7efe8",
+                    "Code":"PlaceDate",
+                    "Name":"订单日期",
+                    "LabelID":"PlaceDate",
+                    "ObjectType":"None",
+                    "MDataType":"Date",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":0,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"1ef764db-c678-456a-8c55-29b5dfbfa1ce",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"448fb69d-a331-4f1c-bd13-11e00673fee4",
+                    "Code":"SalesOrg",
+                    "Name":"销售组织",
+                    "LabelID":"SalesOrg",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":22,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"0499c21f-e214-452c-8b1b-7fe4440a361c",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"f42a2e6f-9f28-4d52-907b-ae1e5838f450",
+                    "Code":"Company",
+                    "Name":"销售公司",
+                    "LabelID":"Company",
+                    "ObjectType":"Association",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":36,
+                    "Precision":0,
+                    "ChildAssociations":[
+                        {
+                            "ID":"63785f92-c82e-4fd2-a656-6e9cbff6d69d",
+                            "RefModelID":"5d1d590f-4c5f-436e-a731-bae663512f89",
+                            "RefModelName":"销售公司实体",
+                            "RefModelCode":"SalesCompany",
+                            "RefModelPkgName":"",
+                            "KeyCollection":[
+                                {
+                                    "SourceElement":"b8428818-6742-4c01-9dbd-ded05f06d4f7",
+                                    "SourceElementDisplay":"公司标识",
+                                    "TargetElement":"f42a2e6f-9f28-4d52-907b-ae1e5838f450",
+                                    "TargetElementDisplay":"销售公司",
+                                    "RefDataModelName":null
+                                }
+                            ],
+                            "RefElementCollection":[
+                                {
+                                    "ID":"e77d0212-7479-47f9-a8b1-003b6581ebce",
+                                    "Code":"Code",
+                                    "Name":"公司编号",
+                                    "LabelID":"Company_Code",
+                                    "ObjectType":"None",
+                                    "MDataType":"String",
+                                    "BillCodeConfig":{
+                                        "CanBillCode":true,
+                                        "BillCodeID":"",
+                                        "BillCodeName":"",
+                                        "CodeGenerateType":0,
+                                        "CodeGenerateOccasion":0
+                                    },
+                                    "DefaultValue":"",
+                                    "DefaultValueType":0,
+                                    "Length":60,
+                                    "Precision":0,
+                                    "ChildAssociations":[
+    
+                                    ],
+                                    "ContainEnumValues":[
+    
+                                    ],
+                                    "ColumnID":"78087248-2135-4877-8713-35828f6f18dc",
+                                    "IsVirtual":false,
+                                    "IsRequire":true,
+                                    "IsRefElement":true,
+                                    "RefElementID":"30093055-2a54-4214-846b-f0e98bb522e3",
+                                    "IsCustomItem":false,
+                                    "IsMultiLanguage":false,
+                                    "IsRef":false,
+                                    "BelongModelID":"",
+                                    "IsUdt":false,
+                                    "UdtPkgName":"",
+                                    "UdtID":"",
+                                    "UdtName":"",
+                                    "CalculationExpress":null,
+                                    "ValidationExpress":null,
+                                    "Readonly":false,
+                                    "RequiredCheckOccasion":"All"
+                                },
+                                {
+                                    "ID":"944c7799-42b9-4253-86d2-6d37565a46f8",
+                                    "Code":"Name",
+                                    "Name":"公司名称",
+                                    "LabelID":"Company_Name",
+                                    "ObjectType":"None",
+                                    "MDataType":"String",
+                                    "BillCodeConfig":{
+                                        "CanBillCode":true,
+                                        "BillCodeID":"",
+                                        "BillCodeName":"",
+                                        "CodeGenerateType":0,
+                                        "CodeGenerateOccasion":0
+                                    },
+                                    "DefaultValue":"",
+                                    "DefaultValueType":0,
+                                    "Length":60,
+                                    "Precision":0,
+                                    "ChildAssociations":[
+    
+                                    ],
+                                    "ContainEnumValues":[
+    
+                                    ],
+                                    "ColumnID":"83e55518-9121-4196-8771-d14cf27d4f76",
+                                    "IsVirtual":false,
+                                    "IsRequire":true,
+                                    "IsRefElement":true,
+                                    "RefElementID":"9cef839c-2d86-49a2-9aa7-d896be185717",
+                                    "IsCustomItem":false,
+                                    "IsMultiLanguage":false,
+                                    "IsRef":false,
+                                    "BelongModelID":"",
+                                    "IsUdt":false,
+                                    "UdtPkgName":"",
+                                    "UdtID":"",
+                                    "UdtName":"",
+                                    "CalculationExpress":null,
+                                    "ValidationExpress":null,
+                                    "Readonly":false,
+                                    "RequiredCheckOccasion":"All"
+                                }
+                            ],
+                            "Where":"",
+                            "AssSendMessage":"",
+                            "ForeignKeyConstraintType":1,
+                            "DeleteRuleType":0
+                        }
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"3af196a2-c219-4922-98ad-0e8f67a11b82",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"a6b2224c-ed6a-48e1-9ae5-1fb91df0f2fd",
+                    "Code":"Employee",
+                    "Name":"销售人员",
+                    "LabelID":"Employee",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":22,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"e5bcb757-3d47-4cbc-b717-9007eff245e6",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"f6ad7013-239e-4ab4-8c96-3fa4e4b4aac2",
+                    "Code":"SoldToParty",
+                    "Name":"售达方",
+                    "LabelID":"SoldToParty",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":22,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"4d97b7a8-3f6b-4782-b59b-f35cff7332ee",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"de565ef5-fe1a-4f69-81b2-a00ff6ae7d2c",
+                    "Code":"Contact",
+                    "Name":"联系人",
+                    "LabelID":"Contract",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":50,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"a7ac1ab8-e59d-4275-9a03-a0d1a20e9be6",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"54602105-d851-4eea-ba95-93fb4989ca81",
+                    "Code":"ContactNumber",
+                    "Name":"联系电话",
+                    "LabelID":"ContractNumber",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":50,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"232d2722-f8c5-4744-a277-abe61def540f",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"c77b8fa2-3dbb-42f5-b528-9f815d3860cd",
+                    "Code":"Currency",
+                    "Name":"币种",
+                    "LabelID":"Currency",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":22,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"353338e9-775d-4b17-b10e-4d9cb42c0463",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"78bdf92e-5657-4d06-9883-1f4dd8efded5",
+                    "Code":"TotalAmount",
+                    "Name":"总金额",
+                    "LabelID":"TotalAmount",
+                    "ObjectType":"None",
+                    "MDataType":"Decimal",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":18,
+                    "Precision":6,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"1509e1d6-bec8-474d-a823-6b629f8f2015",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"24197e28-5518-4ab6-a047-b2373d95e477",
+                    "Code":"Note",
+                    "Name":"备注",
+                    "LabelID":"Note",
+                    "ObjectType":"None",
+                    "MDataType":"Text",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":0,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"16868abe-354a-466f-ba50-13f584b1fa5d",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                },
+                {
+                    "ID":"39e179ed-aa15-4fe8-b45d-bf9646a1b8bc",
+                    "Code":"AuditState",
+                    "Name":"审核状态",
+                    "LabelID":"AuditState",
+                    "ObjectType":"None",
+                    "MDataType":"String",
+                    "BillCodeConfig":{
+                        "CanBillCode":true,
+                        "BillCodeID":"",
+                        "BillCodeName":"",
+                        "CodeGenerateType":0,
+                        "CodeGenerateOccasion":0
+                    },
+                    "DefaultValue":"",
+                    "DefaultValueType":0,
+                    "Length":1,
+                    "Precision":0,
+                    "ChildAssociations":[
+    
+                    ],
+                    "ContainEnumValues":[
+    
+                    ],
+                    "ColumnID":"1bb1a72b-c130-4885-ba25-8d6c551862b4",
+                    "IsVirtual":false,
+                    "IsRequire":true,
+                    "IsRefElement":false,
+                    "RefElementID":"",
+                    "IsCustomItem":false,
+                    "IsMultiLanguage":false,
+                    "IsRef":false,
+                    "BelongModelID":"",
+                    "IsUdt":false,
+                    "UdtPkgName":"",
+                    "UdtID":"",
+                    "UdtName":"",
+                    "CalculationExpress":null,
+                    "ValidationExpress":null,
+                    "Readonly":false,
+                    "RequiredCheckOccasion":"All"
+                }
+            ],
+            "ContainChildObjects":[
+                {
+                    "ContainElements":[
+                        {
+                            "ID":"184d20fe-5fe8-40a1-ad5d-f16e540df04a",
+                            "Code":"ID",
+                            "Name":"ID",
+                            "LabelID":"ID",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":36,
+                            "Precision":0,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"990a17f4-fdc5-4d6a-8339-979e60c0672a",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"f1ac69bb-ced0-4546-8970-11c35eb5359d",
+                            "Code":"ParentID",
+                            "Name":"ParentID",
+                            "LabelID":"ParentID",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":36,
+                            "Precision":0,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"945919c9-3c95-41e0-ba81-3a7825a56070",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"955bc4a3-1e22-400e-be72-1d72bfb9e237",
+                            "Code":"Material",
+                            "Name":"物料",
+                            "LabelID":"Material",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":22,
+                            "Precision":0,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"58f5de4d-c7da-4059-b9d7-f164382b9810",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"9a7c7034-4323-4123-bcbc-db9573827af9",
+                            "Code":"SaleQuantity",
+                            "Name":"销售数量",
+                            "LabelID":"SaleQuantity",
+                            "ObjectType":"None",
+                            "MDataType":"Decimal",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":18,
+                            "Precision":5,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"29d0e39c-52e9-4e93-8897-fadadf9c1e66",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"d4cecf19-969a-4d0b-a1d7-fa08506a2068",
+                            "Code":"SaleUnit",
+                            "Name":"销售单位",
+                            "LabelID":"SaleUnit",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":22,
+                            "Precision":0,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"0f4d9b35-29d5-4f98-a3bf-47b995e9ccd1",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"a516a9bf-781f-46b9-a685-1b868bf4b973",
+                            "Code":"TaxInPrice",
+                            "Name":"单价",
+                            "LabelID":"TaxInPrice",
+                            "ObjectType":"None",
+                            "MDataType":"Decimal",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":18,
+                            "Precision":5,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"b2154357-b6ca-4003-862c-4e2fb7227b19",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"bb69d524-230a-454c-8e86-7fe8a8f1bb79",
+                            "Code":"DiscountRate",
+                            "Name":"折扣率",
+                            "LabelID":"DiscountRate",
+                            "ObjectType":"None",
+                            "MDataType":"Decimal",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":18,
+                            "Precision":8,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"5f32ef6f-6527-4d61-b143-86d3f0d7df9c",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"d271de14-f5c7-43cb-ba2b-39444d65a304",
+                            "Code":"FirstDeliveryDate",
+                            "Name":"首次交货日期",
+                            "LabelID":"FirstDeliveryDate",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":22,
+                            "Precision":0,
+                            "ChildAssociations":[
+    
+                            ],
+                            "ContainEnumValues":[
+    
+                            ],
+                            "ColumnID":"04527a9b-7b08-4f55-973a-0f0a2f0d768f",
+                            "IsVirtual":false,
+                            "IsRequire":true,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        }
+                    ],
+                    "ContainChildObjects":[
+    
+                    ],
+                    "ID":"7c707000-31bf-410a-b21f-874fa4c746d6",
+                    "Code":"OrderItem",
+                    "Name":"订单明细",
+                    "ObjectType":0,
+                    "RefObjectName":"c35c34df-578e-4e1b-be03-ce381aba2008",
+                    "LogicDelete":false,
+                    "ColumnGenerateID":{
+                        "ElementID":"184d20fe-5fe8-40a1-ad5d-f16e540df04a",
+                        "GernerateType":"Guid"
+                    },
+                    "ContainConstraints":[
+    
+                    ],
+                    "OrderbyCondition":"",
+                    "FilterCondition":"",
+                    "ModifiedDateElementID":"",
+                    "CreatorElementID":"",
+                    "CreatedDateElementID":"",
+                    "ModifierElementID":"",
+                    "RecordDelData":false,
+                    "IsReadOnly":false,
+                    "IsVirtual":false,
+                    "BelongModelID":"",
+                    "HirarchyInfo":{
+                        "PathGenerateType":0,
+                        "PathLength":4
+                    },
+                    "Keys":[
+                        {
+                            "SourceElement":"f1ac69bb-ced0-4546-8970-11c35eb5359d",
+                            "SourceElementDisplay":"ParentID",
+                            "TargetElement":"fc1f2ca8-085f-4369-82f5-b5b4040a2a96",
+                            "TargetElementDisplay":"ID",
+                            "RefDataModelName":null
+                        }
+                    ],
+                    "IsRef":false,
+                    "StateElementID":"",
+                    "ParentObjectID":"6d7376c9-5ae1-4075-91c2-1fc9bf3dad5c",
+                    "Determinations":[
+    
+                    ],
+                    "Validations":[
+    
+                    ],
+                    "BizActions":[
+    
+                    ],
+                    "AuthFieldInfos":[
+    
+                    ]
+                },
+                {
+                    "ContainElements":[
+                        {
+                            "ID":"8de9db1d-caf4-4f60-bb88-f5f79fe094f6",
+                            "Code":"ID",
+                            "Name":"ID",
+                            "LabelID":"ID",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":36,
+                            "Precision":0,
+                            "ChildAssociations":[
+        
+                            ],
+                            "ContainEnumValues":[
+        
+                            ],
+                            "ColumnID":"",
+                            "IsVirtual":false,
+                            "IsRequire":false,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"e3711c3f-2898-41f4-9c4b-488554507c20",
+                            "Code":"ParentID",
+                            "Name":"ParentID",
+                            "LabelID":"ParentID",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":36,
+                            "Precision":0,
+                            "ChildAssociations":[
+        
+                            ],
+                            "ContainEnumValues":[
+        
+                            ],
+                            "ColumnID":"",
+                            "IsVirtual":false,
+                            "IsRequire":false,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"6dd2a1bf-deda-4d38-8143-30885ba0af60",
+                            "Code":"Address",
+                            "Name":"送货地址",
+                            "LabelID":"Address",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":128,
+                            "Precision":0,
+                            "ChildAssociations":[
+        
+                            ],
+                            "ContainEnumValues":[
+        
+                            ],
+                            "ColumnID":"",
+                            "IsVirtual":false,
+                            "IsRequire":false,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        },
+                        {
+                            "ID":"ff891d5d-02d4-428e-b73b-ff2109bdbc88",
+                            "Code":"Name",
+                            "Name":"送达方",
+                            "LabelID":"Name",
+                            "ObjectType":"None",
+                            "MDataType":"String",
+                            "BillCodeConfig":{
+                                "CanBillCode":true,
+                                "BillCodeID":"",
+                                "BillCodeName":"",
+                                "CodeGenerateType":0,
+                                "CodeGenerateOccasion":0
+                            },
+                            "DefaultValue":"",
+                            "DefaultValueType":0,
+                            "Length":128,
+                            "Precision":0,
+                            "ChildAssociations":[
+        
+                            ],
+                            "ContainEnumValues":[
+        
+                            ],
+                            "ColumnID":"",
+                            "IsVirtual":false,
+                            "IsRequire":false,
+                            "IsRefElement":false,
+                            "RefElementID":"",
+                            "IsCustomItem":false,
+                            "IsMultiLanguage":false,
+                            "IsRef":false,
+                            "BelongModelID":"",
+                            "IsUdt":false,
+                            "UdtPkgName":"",
+                            "UdtID":"",
+                            "UdtName":"",
+                            "CalculationExpress":null,
+                            "ValidationExpress":null,
+                            "Readonly":false,
+                            "RequiredCheckOccasion":"All"
+                        }
+                    ],
+                    "ContainChildObjects":[
+        
+                    ],
+                    "ID":"208dd405-6c0e-415e-9b01-253525d3d8d3",
+                    "Code":"Delivery",
+                    "Name":"交货信息",
+                    "ObjectType":1,
+                    "RefObjectName":"",
+                    "LogicDelete":false,
+                    "ColumnGenerateID":{
+                        "ElementID":"8de9db1d-caf4-4f60-bb88-f5f79fe094f6",
+                        "GernerateType":"Guid"
+                    },
+                    "ContainConstraints":[
+        
+                    ],
+                    "OrderbyCondition":"",
+                    "FilterCondition":"",
+                    "ModifiedDateElementID":"",
+                    "CreatorElementID":"",
+                    "CreatedDateElementID":"",
+                    "ModifierElementID":"",
+                    "RecordDelData":false,
+                    "IsReadOnly":false,
+                    "IsVirtual":false,
+                    "BelongModelID":"",
+                    "HirarchyInfo":{
+                        "PathGenerateType":0,
+                        "PathLength":4
+                    },
+                    "Keys":[
+                        {
+                            "SourceElement":"e3711c3f-2898-41f4-9c4b-488554507c20",
+                            "SourceElementDisplay":"ParentID",
+                            "TargetElement":"fc1f2ca8-085f-4369-82f5-b5b4040a2a96",
+                            "TargetElementDisplay":"ID",
+                            "RefDataModelName":null
+                        }
+                    ],
+                    "IsRef":false,
+                    "StateElementID":"",
+                    "ParentObjectID":"6d7376c9-5ae1-4075-91c2-1fc9bf3dad5c",
+                    "Determinations":[
+        
+                    ],
+                    "Validations":[
+        
+                    ],
+                    "BizActions":[
+        
+                    ],
+                    "AuthFieldInfos":[
+        
+                    ]
+                }
+            ],
+            "ID":"6d7376c9-5ae1-4075-91c2-1fc9bf3dad5c",
+            "Code":"SalesOrder",
+            "Name":"销售订单",
+            "ObjectType":0,
+            "RefObjectName":"ba25aba8-fe47-42f1-95ba-6af5efdc0480",
+            "LogicDelete":false,
+            "ColumnGenerateID":{
+                "ElementID":"fc1f2ca8-085f-4369-82f5-b5b4040a2a96",
+                "GernerateType":"Guid"
+            },
+            "ContainConstraints":[
+    
+            ],
+            "OrderbyCondition":"",
+            "FilterCondition":"",
+            "ModifiedDateElementID":"",
+            "CreatorElementID":"",
+            "CreatedDateElementID":"",
+            "ModifierElementID":"",
+            "RecordDelData":false,
+            "IsReadOnly":false,
+            "IsVirtual":false,
+            "BelongModelID":"",
+            "HirarchyInfo":{
+                "PathGenerateType":0,
+                "PathLength":4
+            },
+            "Keys":[
+    
+            ],
+            "IsRef":false,
+            "StateElementID":"",
+            "Determinations":[
+                {
+                    "ID":"dde344f0-88de-4a6a-b74c-59931d199e3b",
+                    "Code":"SumDetailAmount",
+                    "Name":"计算总金额",
+                    "Description":"",
+                    "ComponentId":"f0fbf0b8-b967-4bfa-953e-686ecaa7b380",
+                    "ComponentName":"计算总金额",
+                    "ComponentPkgName":"",
+                    "IsVisible":false,
+                    "BelongModelID":"",
+                    "IsRef":false,
+                    "IsGenerateComponent":true,
+                    "DeterminationType":0,
+                    "TriggerTimePointType":2,
+                    "RequestNodeTriggerType":2,
+                    "RequestElements":[
+    
+                    ],
+                    "RequestChildElements":[
+                        {
+                            "RequestChildElementKey":"7c707000-31bf-410a-b21f-874fa4c746d6",
+                            "RequestChildElementValue":[
+                                "9a7c7034-4323-4123-bcbc-db9573827af9",
+                                "a516a9bf-781f-46b9-a685-1b868bf4b973"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Validations":[
+                {
+                    "ID":"6ddacb3f-f377-4f0c-86e8-ca8274aef0b1",
+                    "Code":"PlaceDate_FirstDeliveryDate",
+                    "Name":"校验订单日期",
+                    "Description":"",
+                    "ComponentId":"411c63db-f5e5-4ea8-a029-4f20e872c4c9",
+                    "ComponentName":"校验订单日期",
+                    "ComponentPkgName":"",
+                    "IsVisible":false,
+                    "BelongModelID":"",
+                    "IsRef":false,
+                    "IsGenerateComponent":true,
+                    "ValidationType":0,
+                    "Order":0,
+                    "PrecedingIds":[
+    
+                    ],
+                    "SucceedingIds":[
+    
+                    ],
+                    "RequestNodeTriggerType":2,
+                    "RequestElements":[
+                        "ebc2fc89-1fae-4232-a585-eaee46d7efe8"
+                    ],
+                    "RequestChildElements":[
+    
+                    ]
+                }
+            ],
+            "BizActions":[
+                {
+                    "ID":"aD73GrGaKEiA7N9jsPxIOQ",
+                    "Code":"Delete",
+                    "Name":"内置删除操作",
+                    "Description":null,
+                    "ComponentId":null,
+                    "ComponentName":null,
+                    "ComponentPkgName":null,
+                    "IsVisible":false,
+                    "BelongModelID":null,
+                    "IsRef":false,
+                    "IsGenerateComponent":false,
+                    "CurentAuthType":0,
+                    "OpIdList":[
+    
+                    ],
+                    "Parameters":[
+    
+                    ]
+                },
+                {
+                    "ID":"tf9MVINdJ0yhUrsJgfcvBA",
+                    "Code":"Modify",
+                    "Name":"内置修改操作",
+                    "Description":null,
+                    "ComponentId":null,
+                    "ComponentName":null,
+                    "ComponentPkgName":null,
+                    "IsVisible":false,
+                    "BelongModelID":null,
+                    "IsRef":false,
+                    "IsGenerateComponent":false,
+                    "CurentAuthType":0,
+                    "OpIdList":[
+    
+                    ],
+                    "Parameters":[
+    
+                    ]
+                },
+                {
+                    "ID":"cJwzDlFfa0uz4rChlTEd4g",
+                    "Code":"Retrieve",
+                    "Name":"内置检索操作",
+                    "Description":null,
+                    "ComponentId":null,
+                    "ComponentName":null,
+                    "ComponentPkgName":null,
+                    "IsVisible":false,
+                    "BelongModelID":null,
+                    "IsRef":false,
+                    "IsGenerateComponent":false,
+                    "CurentAuthType":0,
+                    "OpIdList":[
+    
+                    ],
+                    "Parameters":[
+    
+                    ]
+                },
+                {
+                    "ID":"77b8c134-0356-4de7-b4e8-3112efd44388",
+                    "Code":"Audit",
+                    "Name":"审核",
+                    "Description":"",
+                    "ComponentId":"ea62f992-1687-414f-a329-33aa384eb22a",
+                    "ComponentName":"审核",
+                    "ComponentPkgName":"",
+                    "IsVisible":false,
+                    "BelongModelID":"",
+                    "IsRef":false,
+                    "IsGenerateComponent":true,
+                    "CurentAuthType":0,
+                    "OpIdList":[
+    
+                    ],
+                    "Parameters":[
+    
+                    ],
+                    "ReturnValue":{
+                        "ID":"fd059051-6cbe-412d-bc25-8bf80386e3e6",
+                        "ParamCode":"",
+                        "ParamName":null,
+                        "ParameterType":1,
+                        "Assembly":"mscorlib.dll",
+                        "ClassName":"System.Boolean",
+                        "Mode":1,
+                        "ParamDescription":"返回值为布尔类型"
+                    }
+                }
+            ],
+            "AuthFieldInfos":[
+    
+            ]
+        },
+        "ExtendType": "GSPViewModel",
+        "ValueHelpConfigs": [],
+        "Actions": [
+            {
+                "Type": 0,
+                "ID": "b4b60aa1-adf6-4825-b665-5796a15b5231",
+                "Code": "TestAAA",
+                "Name": "TestAAA",
+                "Parameters": [],
+                "ParameterCollection": [
+                    {
+                        "ID": "67037f1c-793d-4b3a-a9cd-b17a1ace0c54",
+                        "ParamCode": "ddd",
+                        "ParamName": "ddd",
+                        "ParameterType": 0,
+                        "Assembly": "mscorlib.dll",
+                        "ClassName": "System.String",
+                        "Mode": 0,
+                        "ParamDescription": ""
+                    }
+                ],
+                "ReturnValue": {
+                    "Assembly": "mscorlib.dll",
+                    "ClassName": "Void",
+                    "ParameterType": 7,
+                    "ParamName": null,
+                    "Mode": 1,
+                    "ID": "",
+                    "ParamCode": "",
+                    "ParamDescription": ""
+                },
+                "Result": null,
+                "Mapping": {
+                    "MapType": 5,
+                    "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                    "TargetMetadataPkgName": "",
+                    "TargetObjId": "bd3c69e8-bb12-4186-b3a5-c5620fbfc997"
+                }
+            }
+        ],
+        "ID": "ad51e600-520d-45e4-af47-f5fca155d59c",
+        "Code": "GenVm_NewBizEntity_ad51e",
+        "Name": "GenVm_NewBizEntity_ad51e",
+        "IsVirtual": false,
+        "EntityType": "",
+        "PrimayKeyID": "ID",
+        "FkConstraints": [],
+        "GeneratingAssembly": "Inspur.Gsp.Test.Vm"
+    },
+    {
+        "Description": "",
+        "Mapping": {
+            "MapType": 0,
+            "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+            "TargetMetadataPkgName": "",
+            "TargetObjId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee"
+        },
+        "MainObject": {
+            "IsBeckendOnly": false,
+            "IsRootNode": true,
+            "PrimaryKey": "",
+            "ParentObject": null,
+            "Parent": null,
+            "Mapping": {
+                "MapType": 2,
+                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                "TargetMetadataPkgName": "",
+                "TargetObjId": "b7cd7f81-370e-4df3-b70c-c8a9c6f6a3b3"
+            },
+            "HasChildNode": true,
+            "ContainElements": [
+                {
+                    "IsReadOnly": false,
+                    "IsBeckendOnly": false,
+                    "Mapping": {
+                        "MapType": 4,
+                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                        "TargetMetadataPkgName": "",
+                        "TargetObjId": "9a64ca83-8d01-4954-b293-47520e177067"
+                    },
+                    "ImmediateSubmission": false,
+                    "ShowInFilter": true,
+                    "ShowInSort": true,
+                    "ID": "9a64ca83-8d01-4954-b293-47520e177067",
+                    "Code": "aa",
+                    "Name": "aa",
+                    "LabelID": "aa",
+                    "MDataType": 2,
+                    "BillCodeConfig": {
+                        "CanBillCode": true,
+                        "BillCodeID": "",
+                        "BillCodeName": "",
+                        "CodeGenerateType": 0,
+                        "CodeGenerateOccasion": 0
+                    },
+                    "DefaultValue": "",
+                    "DefaultValueType": 0,
+                    "Length": 36,
+                    "Precision": 0,
+                    "ObjectType": 0,
+                    "ChildAssociations": [],
+                    "HasAssociation": false,
+                    "ContainEnumValues": [],
+                    "ColumnID": "cf2276c6-c312-4310-8023-d0c37d625215",
+                    "IsVirtual": false,
+                    "IsRequire": true,
+                    "IsRefElement": false,
+                    "RefElementId": "",
+                    "IsCustomItem": false,
+                    "IsMultiLanguage": false,
+                    "IsRef": false,
+                    "ParentAssociation": null,
+                    "BelongModelID": ""
+                },
+                {
+                    "IsReadOnly": false,
+                    "IsBeckendOnly": false,
+                    "Mapping": {
+                        "MapType": 4,
+                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                        "TargetMetadataPkgName": "",
+                        "TargetObjId": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5"
+                    },
+                    "ImmediateSubmission": false,
+                    "ShowInFilter": true,
+                    "ShowInSort": true,
+                    "ID": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5",
+                    "Code": "ID",
+                    "Name": "ID",
+                    "LabelID": "ID",
+                    "MDataType": 0,
+                    "BillCodeConfig": {
+                        "CanBillCode": true,
+                        "BillCodeID": "",
+                        "BillCodeName": "",
+                        "CodeGenerateType": 0,
+                        "CodeGenerateOccasion": 0
+                    },
+                    "DefaultValue": "",
+                    "DefaultValueType": 0,
+                    "Length": 22,
+                    "Precision": 0,
+                    "ObjectType": 0,
+                    "ChildAssociations": [],
+                    "HasAssociation": false,
+                    "ContainEnumValues": [],
+                    "ColumnID": "ecf2943e-e47d-4fab-91ce-719442ac5975",
+                    "IsVirtual": false,
+                    "IsRequire": true,
+                    "IsRefElement": false,
+                    "RefElementId": "",
+                    "IsCustomItem": false,
+                    "IsMultiLanguage": false,
+                    "IsRef": false,
+                    "ParentAssociation": null,
+                    "BelongModelID": ""
+                },
+                {
+                    "IsReadOnly": false,
+                    "IsBeckendOnly": false,
+                    "Mapping": {
+                        "MapType": 4,
+                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                        "TargetMetadataPkgName": "",
+                        "TargetObjId": "3d06dc26-48e1-4f4a-bca6-67b9b805151d"
+                    },
+                    "ImmediateSubmission": false,
+                    "ShowInFilter": true,
+                    "ShowInSort": true,
+                    "ID": "3d06dc26-48e1-4f4a-bca6-67b9b805151d",
+                    "Code": "ME1",
+                    "Name": "ME1",
+                    "LabelID": "ME1",
+                    "MDataType": 0,
+                    "BillCodeConfig": {
+                        "CanBillCode": true,
+                        "BillCodeID": "",
+                        "BillCodeName": "",
+                        "CodeGenerateType": 0,
+                        "CodeGenerateOccasion": 0
+                    },
+                    "DefaultValue": "",
+                    "DefaultValueType": 0,
+                    "Length": 22,
+                    "Precision": 0,
+                    "ObjectType": 1,
+                    "ChildAssociations": [
+                        {
+                            "Id": "0c8a1247-bcdf-4312-ac41-69195f141244",
+                            "RefModel": null,
+                            "RefModelID": "d3a5b491-572e-4307-8a8b-90e36d2d8c1a",
+                            "RefModelPkgName": "",
+                            "RefModelCode": "NewBizEntity",
+                            "RefModelName": "NewBizEntity",
+                            "KeyCollection": [
+                                {
+                                    "SourceElement": "c9d34b0c-8422-4d09-a967-bcb49ca543bd",
+                                    "SourceElementDisplay": "ID",
+                                    "TargetElement": "3d06dc26-48e1-4f4a-bca6-67b9b805151d",
+                                    "TargetElementDisplay": "ME1",
+                                    "RefDataModelName": null
+                                }
+                            ],
+                            "RefElementCollection": [
+                                {
+                                    "IsReadOnly": false,
+                                    "IsBeckendOnly": false,
+                                    "Mapping": {
+                                        "MapType": 4,
+                                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                        "TargetMetadataPkgName": "",
+                                        "TargetObjId": "9a751f35-c293-4e0a-9c94-d37c4e8f390c"
+                                    },
+                                    "ImmediateSubmission": false,
+                                    "ShowInFilter": true,
+                                    "ShowInSort": true,
+                                    "ID": "9a751f35-c293-4e0a-9c94-d37c4e8f390c",
+                                    "Code": "Code",
+                                    "Name": "Code",
+                                    "LabelID": "ME1_Code",
+                                    "MDataType": 0,
+                                    "BillCodeConfig": {
+                                        "CanBillCode": true,
+                                        "BillCodeID": "",
+                                        "BillCodeName": "",
+                                        "CodeGenerateType": 0,
+                                        "CodeGenerateOccasion": 0
+                                    },
+                                    "DefaultValue": "",
+                                    "DefaultValueType": 0,
+                                    "Length": 22,
+                                    "Precision": 0,
+                                    "ObjectType": 0,
+                                    "ChildAssociations": [],
+                                    "HasAssociation": false,
+                                    "ContainEnumValues": [],
+                                    "ColumnID": "dc6b83fa-5593-46d0-a90e-0d7051f272a4",
+                                    "IsVirtual": false,
+                                    "IsRequire": true,
+                                    "IsRefElement": true,
+                                    "RefElementId": "eb3aae04-ba2f-4f3a-85ad-b09f4e90528b",
+                                    "IsCustomItem": false,
+                                    "IsMultiLanguage": false,
+                                    "IsRef": false,
+                                    "BelongModelID": ""
+                                },
+                                {
+                                    "IsReadOnly": false,
+                                    "IsBeckendOnly": false,
+                                    "Mapping": {
+                                        "MapType": 4,
+                                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                        "TargetMetadataPkgName": "",
+                                        "TargetObjId": "87b958c5-256e-48d5-8490-4ada0e36f71c"
+                                    },
+                                    "ImmediateSubmission": false,
+                                    "ShowInFilter": true,
+                                    "ShowInSort": true,
+                                    "ID": "87b958c5-256e-48d5-8490-4ada0e36f71c",
+                                    "Code": "Name",
+                                    "Name": "Name",
+                                    "LabelID": "ME1_Name",
+                                    "MDataType": 0,
+                                    "BillCodeConfig": {
+                                        "CanBillCode": true,
+                                        "BillCodeID": "",
+                                        "BillCodeName": "",
+                                        "CodeGenerateType": 0,
+                                        "CodeGenerateOccasion": 0
+                                    },
+                                    "DefaultValue": "",
+                                    "DefaultValueType": 0,
+                                    "Length": 22,
+                                    "Precision": 0,
+                                    "ObjectType": 0,
+                                    "ChildAssociations": [],
+                                    "HasAssociation": false,
+                                    "ContainEnumValues": [],
+                                    "ColumnID": "e8f6be1a-4efe-481e-8f04-36edc0e022af",
+                                    "IsVirtual": false,
+                                    "IsRequire": true,
+                                    "IsRefElement": true,
+                                    "RefElementId": "603d4eaf-4366-44be-954b-31cdde87a90d",
+                                    "IsCustomItem": false,
+                                    "IsMultiLanguage": false,
+                                    "IsRef": false,
+                                    "BelongModelID": ""
+                                }
+                            ],
+                            "Where": "",
+                            "AssSendMessage": "",
+                            "ForeignKeyConstraintType": 1,
+                            "DeleteRuleType": 0,
+                            "JoinMode": 0
+                        }
+                    ],
+                    "HasAssociation": true,
+                    "ContainEnumValues": [],
+                    "ColumnID": "755f5e17-f81e-468d-9387-135067787175",
+                    "IsVirtual": false,
+                    "IsRequire": true,
+                    "IsRefElement": false,
+                    "RefElementId": "",
+                    "IsCustomItem": false,
+                    "IsMultiLanguage": false,
+                    "IsRef": false,
+                    "ParentAssociation": null,
+                    "BelongModelID": ""
+                },
+                {
+                    "IsReadOnly": false,
+                    "IsBeckendOnly": false,
+                    "Mapping": {
+                        "MapType": 4,
+                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                        "TargetMetadataPkgName": "",
+                        "TargetObjId": "5fb0f177-02e7-4da1-9a52-5adefd03911a"
+                    },
+                    "ImmediateSubmission": false,
+                    "ShowInFilter": true,
+                    "ShowInSort": true,
+                    "ID": "5fb0f177-02e7-4da1-9a52-5adefd03911a",
+                    "Code": "ME2",
+                    "Name": "ME2",
+                    "LabelID": "ME2",
+                    "MDataType": 0,
+                    "BillCodeConfig": {
+                        "CanBillCode": true,
+                        "BillCodeID": "",
+                        "BillCodeName": "",
+                        "CodeGenerateType": 0,
+                        "CodeGenerateOccasion": 0
+                    },
+                    "DefaultValue": "",
+                    "DefaultValueType": 0,
+                    "Length": 22,
+                    "Precision": 0,
+                    "ObjectType": 2,
+                    "ChildAssociations": [],
+                    "HasAssociation": false,
+                    "ContainEnumValues": [
+                        {
+                            "Value": "0",
+                            "Name": "female"
+                        },
+                        {
+                            "Value": "1",
+                            "Name": "male"
+                        }
+                    ],
+                    "ColumnID": "856b1a80-8079-4534-8153-8bd05323e889",
+                    "IsVirtual": false,
+                    "IsRequire": true,
+                    "IsRefElement": false,
+                    "RefElementId": "",
+                    "IsCustomItem": false,
+                    "IsMultiLanguage": false,
+                    "IsRef": false,
+                    "ParentAssociation": null,
+                    "BelongModelID": ""
+                }
+            ],
+            "ContainChildObjects": [
+                {
+                    "IsBeckendOnly": false,
+                    "IsRootNode": false,
+                    "PrimaryKey": "",
+                    "Mapping": {
+                        "MapType": 2,
+                        "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                        "TargetMetadataPkgName": "",
+                        "TargetObjId": "0dd9c0e1-9f4a-4fc5-b144-63ca46351fc3"
+                    },
+                    "HasChildNode": false,
+                    "ContainElements": [
+                        {
+                            "IsReadOnly": false,
+                            "IsBeckendOnly": false,
+                            "Mapping": {
+                                "MapType": 4,
+                                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                "TargetMetadataPkgName": "",
+                                "TargetObjId": "4672fd4a-9241-4be2-b4b2-1f011e2e6ddf"
+                            },
+                            "ImmediateSubmission": false,
+                            "ShowInFilter": true,
+                            "ShowInSort": true,
+                            "ID": "4672fd4a-9241-4be2-b4b2-1f011e2e6ddf",
+                            "Code": "ID",
+                            "Name": "ID",
+                            "LabelID": "ID",
+                            "MDataType": 0,
+                            "BillCodeConfig": {
+                                "CanBillCode": true,
+                                "BillCodeID": "",
+                                "BillCodeName": "",
+                                "CodeGenerateType": 0,
+                                "CodeGenerateOccasion": 0
+                            },
+                            "DefaultValue": "",
+                            "DefaultValueType": 0,
+                            "Length": 22,
+                            "Precision": 0,
+                            "ObjectType": 0,
+                            "ChildAssociations": [],
+                            "HasAssociation": false,
+                            "ContainEnumValues": [],
+                            "ColumnID": "8a103813-68ca-4d73-8b61-500f3dcc4491",
+                            "IsVirtual": false,
+                            "IsRequire": true,
+                            "IsRefElement": false,
+                            "RefElementId": "",
+                            "IsCustomItem": false,
+                            "IsMultiLanguage": false,
+                            "IsRef": false,
+                            "ParentAssociation": null,
+                            "BelongModelID": ""
+                        },
+                        {
+                            "IsReadOnly": false,
+                            "IsBeckendOnly": false,
+                            "Mapping": {
+                                "MapType": 4,
+                                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                "TargetMetadataPkgName": "",
+                                "TargetObjId": "b8329156-5e25-4102-9b45-33ef2db14e10"
+                            },
+                            "ImmediateSubmission": false,
+                            "ShowInFilter": true,
+                            "ShowInSort": true,
+                            "ID": "b8329156-5e25-4102-9b45-33ef2db14e10",
+                            "Code": "ParentID",
+                            "Name": "ParentID",
+                            "LabelID": "ParentID",
+                            "MDataType": 0,
+                            "BillCodeConfig": {
+                                "CanBillCode": true,
+                                "BillCodeID": "",
+                                "BillCodeName": "",
+                                "CodeGenerateType": 0,
+                                "CodeGenerateOccasion": 0
+                            },
+                            "DefaultValue": "",
+                            "DefaultValueType": 0,
+                            "Length": 22,
+                            "Precision": 0,
+                            "ObjectType": 0,
+                            "ChildAssociations": [],
+                            "HasAssociation": false,
+                            "ContainEnumValues": [],
+                            "ColumnID": "ccc599cb-0135-4114-88ec-2245bf2b58f0",
+                            "IsVirtual": false,
+                            "IsRequire": true,
+                            "IsRefElement": false,
+                            "RefElementId": "",
+                            "IsCustomItem": false,
+                            "IsMultiLanguage": false,
+                            "IsRef": false,
+                            "ParentAssociation": null,
+                            "BelongModelID": ""
+                        },
+                        {
+                            "IsReadOnly": false,
+                            "IsBeckendOnly": false,
+                            "Mapping": {
+                                "MapType": 4,
+                                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                "TargetMetadataPkgName": "",
+                                "TargetObjId": "6859ab87-681f-460d-893f-ed6dea8860f8"
+                            },
+                            "ImmediateSubmission": false,
+                            "ShowInFilter": true,
+                            "ShowInSort": true,
+                            "ID": "6859ab87-681f-460d-893f-ed6dea8860f8",
+                            "Code": "ElA",
+                            "Name": "ElA",
+                            "LabelID": "ElA",
+                            "MDataType": 0,
+                            "BillCodeConfig": {
+                                "CanBillCode": true,
+                                "BillCodeID": "",
+                                "BillCodeName": "",
+                                "CodeGenerateType": 0,
+                                "CodeGenerateOccasion": 0
+                            },
+                            "DefaultValue": "",
+                            "DefaultValueType": 0,
+                            "Length": 22,
+                            "Precision": 0,
+                            "ObjectType": 0,
+                            "ChildAssociations": [],
+                            "HasAssociation": false,
+                            "ContainEnumValues": [],
+                            "ColumnID": "da8d528e-06e6-4d14-8bb3-bd9b958b8da8",
+                            "IsVirtual": false,
+                            "IsRequire": true,
+                            "IsRefElement": false,
+                            "RefElementId": "",
+                            "IsCustomItem": false,
+                            "IsMultiLanguage": false,
+                            "IsRef": false,
+                            "ParentAssociation": null,
+                            "BelongModelID": ""
+                        },
+                        {
+                            "IsReadOnly": false,
+                            "IsBeckendOnly": false,
+                            "Mapping": {
+                                "MapType": 4,
+                                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                "TargetMetadataPkgName": "",
+                                "TargetObjId": "5e59ec84-d2bd-4212-b5d5-601d1c1347a1"
+                            },
+                            "ImmediateSubmission": false,
+                            "ShowInFilter": true,
+                            "ShowInSort": true,
+                            "ID": "5e59ec84-d2bd-4212-b5d5-601d1c1347a1",
+                            "Code": "El2",
+                            "Name": "El2",
+                            "LabelID": "El2",
+                            "MDataType": 2,
+                            "BillCodeConfig": {
+                                "CanBillCode": true,
+                                "BillCodeID": "",
+                                "BillCodeName": "",
+                                "CodeGenerateType": 0,
+                                "CodeGenerateOccasion": 0
+                            },
+                            "DefaultValue": "",
+                            "DefaultValueType": 0,
+                            "Length": 0,
+                            "Precision": 0,
+                            "ObjectType": 0,
+                            "ChildAssociations": [],
+                            "HasAssociation": false,
+                            "ContainEnumValues": [],
+                            "ColumnID": "92724d20-e29e-4b85-9561-e043b2843eb0",
+                            "IsVirtual": false,
+                            "IsRequire": true,
+                            "IsRefElement": false,
+                            "RefElementId": "",
+                            "IsCustomItem": false,
+                            "IsMultiLanguage": false,
+                            "IsRef": false,
+                            "ParentAssociation": null,
+                            "BelongModelID": ""
+                        },
+                        {
+                            "IsReadOnly": false,
+                            "IsBeckendOnly": false,
+                            "Mapping": {
+                                "MapType": 4,
+                                "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                                "TargetMetadataPkgName": "",
+                                "TargetObjId": "04d95d76-3ff5-4810-86d2-d13793c83697"
+                            },
+                            "ImmediateSubmission": false,
+                            "ShowInFilter": true,
+                            "ShowInSort": true,
+                            "ID": "04d95d76-3ff5-4810-86d2-d13793c83697",
+                            "Code": "El3",
+                            "Name": "El3",
+                            "LabelID": "El3",
+                            "MDataType": 6,
+                            "BillCodeConfig": {
+                                "CanBillCode": true,
+                                "BillCodeID": "",
+                                "BillCodeName": "",
+                                "CodeGenerateType": 0,
+                                "CodeGenerateOccasion": 0
+                            },
+                            "DefaultValue": "",
+                            "DefaultValueType": 0,
+                            "Length": 0,
+                            "Precision": 0,
+                            "ObjectType": 0,
+                            "ChildAssociations": [],
+                            "HasAssociation": false,
+                            "ContainEnumValues": [],
+                            "ColumnID": "3858f5ce-5799-4f42-9139-697af8e23e44",
+                            "IsVirtual": false,
+                            "IsRequire": true,
+                            "IsRefElement": false,
+                            "RefElementId": "",
+                            "IsCustomItem": false,
+                            "IsMultiLanguage": false,
+                            "IsRef": false,
+                            "ParentAssociation": null,
+                            "BelongModelID": ""
+                        }
+                    ],
+                    "ContainChildObjects": [],
+                    "DefaultPageSize": 0,
+                    "ID": "0dd9c0e1-9f4a-4fc5-b144-63ca46351fc3",
+                    "Code": "ChildA",
+                    "Name": "ChildA",
+                    "ObjectType": 0,
+                    "RefObjectName": "ChildA",
+                    "LogicDelete": false,
+                    "ColumnGenerateID": {
+                        "ElementID": "4672fd4a-9241-4be2-b4b2-1f011e2e6ddf",
+                        "GernerateType": "Guid"
+                    },
+                    "ContainConstraints": [],
+                    "OrderbyCondition": "",
+                    "FilterCondition": "",
+                    "ModifiedDateElementID": "",
+                    "CreatorElementID": "",
+                    "CreatedDateElementID": "",
+                    "ModifierElementID": "",
+                    "RecordDelData": false,
+                    "IsReadOnly": false,
+                    "IsVirtual": false,
+                    "HirarchyInfo": {
+                        "ParentRefElement": null,
+                        "PathElement": null,
+                        "PathLength": 4,
+                        "LayerElement": null,
+                        "IsDetailElement": null,
+                        "ParentElement": null,
+                        "PathGenerateType": 0
+                    },
+                    "Keys": [
+                        {
+                            "SourceElement": "b8329156-5e25-4102-9b45-33ef2db14e10",
+                            "SourceElementDisplay": "ParentID",
+                            "TargetElement": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5",
+                            "TargetElementDisplay": "ID",
+                            "RefDataModelName": null
+                        }
+                    ],
+                    "IsRef": false,
+                    "IDElement": {
+                        "IsReadOnly": false,
+                        "IsBeckendOnly": false,
+                        "Mapping": {
+                            "MapType": 4,
+                            "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                            "TargetMetadataPkgName": "",
+                            "TargetObjId": "4672fd4a-9241-4be2-b4b2-1f011e2e6ddf"
+                        },
+                        "ImmediateSubmission": false,
+                        "ShowInFilter": true,
+                        "ShowInSort": true,
+                        "ID": "4672fd4a-9241-4be2-b4b2-1f011e2e6ddf",
+                        "Code": "ID",
+                        "Name": "ID",
+                        "LabelID": "ID",
+                        "MDataType": 0,
+                        "BillCodeConfig": {
+                            "CanBillCode": true,
+                            "BillCodeID": "",
+                            "BillCodeName": "",
+                            "CodeGenerateType": 0,
+                            "CodeGenerateOccasion": 0
+                        },
+                        "DefaultValue": "",
+                        "DefaultValueType": 0,
+                        "Length": 22,
+                        "Precision": 0,
+                        "ObjectType": 0,
+                        "ChildAssociations": [],
+                        "HasAssociation": false,
+                        "ContainEnumValues": [],
+                        "ColumnID": "8a103813-68ca-4d73-8b61-500f3dcc4491",
+                        "IsVirtual": false,
+                        "IsRequire": true,
+                        "IsRefElement": false,
+                        "RefElementId": "",
+                        "IsCustomItem": false,
+                        "IsMultiLanguage": false,
+                        "IsRef": false,
+                        "ParentAssociation": null,
+                        "BelongModelID": ""
+                    },
+                    "StateElementID": "",
+                    "BelongModelID": ""
+                }
+            ],
+            "DefaultPageSize": 0,
+            "ID": "b7cd7f81-370e-4df3-b70c-c8a9c6f6a3b3",
+            "Code": "mainObject",
+            "Name": "mainObject",
+            "ObjectType": 0,
+            "RefObjectName": "mainObject",
+            "LogicDelete": false,
+            "ColumnGenerateID": {
+                "ElementID": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5",
+                "GernerateType": "Guid"
+            },
+            "ContainConstraints": [],
+            "OrderbyCondition": "",
+            "FilterCondition": "",
+            "ModifiedDateElementID": "",
+            "CreatorElementID": "",
+            "CreatedDateElementID": "",
+            "ModifierElementID": "",
+            "RecordDelData": false,
+            "IsReadOnly": false,
+            "IsVirtual": false,
+            "HirarchyInfo": {
+                "ParentRefElement": null,
+                "PathElement": null,
+                "PathLength": 4,
+                "LayerElement": null,
+                "IsDetailElement": null,
+                "ParentElement": null,
+                "PathGenerateType": 0
+            },
+            "Keys": [],
+            "IsRef": false,
+            "IDElement": {
+                "IsReadOnly": false,
+                "IsBeckendOnly": false,
+                "Mapping": {
+                    "MapType": 4,
+                    "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                    "TargetMetadataPkgName": "",
+                    "TargetObjId": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5"
+                },
+                "ImmediateSubmission": false,
+                "ShowInFilter": true,
+                "ShowInSort": true,
+                "ID": "79a4a2a6-96ef-4ecf-8147-38222a9e85a5",
+                "Code": "ID",
+                "Name": "ID",
+                "LabelID": "ID",
+                "MDataType": 0,
+                "BillCodeConfig": {
+                    "CanBillCode": true,
+                    "BillCodeID": "",
+                    "BillCodeName": "",
+                    "CodeGenerateType": 0,
+                    "CodeGenerateOccasion": 0
+                },
+                "DefaultValue": "",
+                "DefaultValueType": 0,
+                "Length": 22,
+                "Precision": 0,
+                "ObjectType": 0,
+                "ChildAssociations": [],
+                "HasAssociation": false,
+                "ContainEnumValues": [],
+                "ColumnID": "ecf2943e-e47d-4fab-91ce-719442ac5975",
+                "IsVirtual": false,
+                "IsRequire": true,
+                "IsRefElement": false,
+                "RefElementId": "",
+                "IsCustomItem": false,
+                "IsMultiLanguage": false,
+                "IsRef": false,
+                "ParentAssociation": null,
+                "BelongModelID": ""
+            },
+            "StateElementID": "",
+            "BelongModelID": ""
+        },
+        "ExtendType": "GSPViewModel",
+        "ValueHelpConfigs": [],
+        "Actions": [
+            {
+                "Type": 0,
+                "ID": "b4b60aa1-adf6-4825-b665-5796a15b5231",
+                "Code": "TestAAA",
+                "Name": "TestAAA",
+                "Parameters": [],
+                "ParameterCollection": [
+                    {
+                        "ID": "67037f1c-793d-4b3a-a9cd-b17a1ace0c54",
+                        "ParamCode": "ddd",
+                        "ParamName": "ddd",
+                        "ParameterType": 0,
+                        "Assembly": "mscorlib.dll",
+                        "ClassName": "System.String",
+                        "Mode": 0,
+                        "ParamDescription": ""
+                    }
+                ],
+                "ReturnValue": {
+                    "Assembly": "mscorlib.dll",
+                    "ClassName": "Void",
+                    "ParameterType": 7,
+                    "ParamName": null,
+                    "Mode": 1,
+                    "ID": "",
+                    "ParamCode": "",
+                    "ParamDescription": ""
+                },
+                "Result": null,
+                "Mapping": {
+                    "MapType": 5,
+                    "TargetMetadataId": "8eefbd6a-5162-4526-923c-3b43b62ac5ee",
+                    "TargetMetadataPkgName": "",
+                    "TargetObjId": "bd3c69e8-bb12-4186-b3a5-c5620fbfc997"
+                }
+            }
+        ],
+        "ID": "ad51e600-520d-45e4-af47-f5fca155d59c001",
+        "Code": "GenVm_NewBizEntity_ad51e001",
+        "Name": "GenVm_NewBizEntity_ad51e001",
+        "IsVirtual": false,
+        "EntityType": "",
+        "PrimayKeyID": "ID",
+        "FkConstraints": [],
+        "GeneratingAssembly": "Inspur.Gsp.Test.Vm"
+    }
+]

@@ -1,0 +1,42 @@
+﻿{
+    "GSPWebApiConfigurations": [
+        {
+            "Application": "dev",
+            "ServiceUnit": "main",
+            "Assembly": "Inspur.Gsp.Ebs.Design.Core",
+            "Controllers": [
+                {
+                    "ServiceName": "EbsEvent",
+                    "Path": "/ebs-events",
+                    "Type": "Inspur.Gsp.Ebs.Design.Core.Rest.EbsEventService",
+                    "Version": "1.0"
+                },
+                {
+                    "ServiceName": "EbsSubscriber",
+                    "Path": "/ebs-subscribers",
+                    "Type": "Inspur.Gsp.Ebs.Design.Core.Rest.EbsSubscriberService",
+                    "Version": "1.0"
+                },
+                {
+                    "ServiceName": "EbsPubSubs",
+                    "Path": "/ebs-pubsubs",
+                    "Type": "Inspur.Gsp.Ebs.Design.Core.Rest.EbsPubSubService",
+                    "Version": "1.0"
+                }
+            ]
+        },
+        {
+            "Application": "dev",
+            "ServiceUnit": "main",
+            "Assembly": "EDFTest",
+            "Controllers": [
+                {
+                    "ServiceName": "WebApi",
+                    "Path": "test",
+                    "Type": "EDFTest.WebApi",
+                    "Version": "1.0"
+                }
+            ]
+        }
+    ]
+}

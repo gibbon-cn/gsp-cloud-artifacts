@@ -1,0 +1,9 @@
+{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.Caf.Luw.Api.ILuwService,Inspur.Gsp.Caf.Luw.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Caf.Luw.Entity.LuwService,Inspur.Gsp.Caf.Luw.Entity"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+   {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Lcm.DatabaseObject.WebApi",
+      "Controllers": [
+        {
+          "ServiceName": "DatabaseObject",
+          "Path": "/database-objects",
+          "Type": "Inspur.Gsp.Lcm.DatabaseObject.WebApi.DatabaseObjectController",
+          "Version": "1.0"
+        }	
+      ]
+    }
+  ] 
+}

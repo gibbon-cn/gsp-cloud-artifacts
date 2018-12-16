@@ -1,0 +1,143 @@
+﻿{
+	"PostgreSQLConfigData":
+	{
+		"DbType": "PgSQL",
+		"Code": "pg01",
+		"UserId": "gsp_cloud",
+		"Password": "Test6530",
+		"Source": "10.24.19.124:15432",
+		"Catalog": "gsp_cloud_db",
+		"Provider": "1",
+		"ConnectTimeout": "120",
+		"CommandTimeout": "600",
+		"MaxPoolSize": "100",
+		"Description": "实例2"
+	},
+	"ListeningTimerInterval":
+	{
+		"isOpenEbs":false,
+		"dataBaseRefreshInterval":"60",
+		"connectionPoolRefreshInterval":"20",
+		"clearConnectionPoolInterval":"-1"
+	},
+	"BinderAssemblyEntity":
+	[
+		{
+			"Type": "RabbitMQ",
+			"AssemblyInfofile": "Inspur.Gsp.Svc.MQ.RabbitMQBinder.dll",
+			"AssemblyInfo": "Inspur.Gsp.Svc.MQ.RabbitMQBinder",
+			"PublisherClassInfo": "Inspur.Gsp.Svc.MQ.RabbitMQBinder.RabbitMQPublisher",
+			"ListenerClassInfo": "Inspur.Gsp.Svc.MQ.RabbitMQBinder.RabbitMQListener"
+		}
+	],
+	"BinderConfiguration":
+	[
+		{
+			"BinderName":"rabbitmq001",
+			"BrokerConifg":
+			{
+				"Brokers":
+				[
+					{
+						"HostName":"10.24.19.140",
+						"Port":5672
+					}
+				],
+				"DefaultUserName":"guest",
+				"DefaultPassword":"guest"				
+			},
+			"Type":0,
+			"IsDefault":true,
+			"DlqChannel":"rabbitmqdlq",
+			"DlqSuid":"sys",
+			"DlqHandler":
+			{
+				"ID":null,
+				"AssemblyInfo":"GspCloudStreamTest",
+				"ClassInfo":"GspCloudStreamTest.RabbitMQDlqSubscriber",
+				"MethodInfo":"Subscribe",
+				"ExecuteType":2,
+				"Creator":null,
+				"CreateTime":null,
+				"LastChanger":null,
+				"LastChangeTime":null
+			},
+			"RequestedConnectionTimeOut":120,
+			"SocketReadTimeout":120,
+			"SocketWriteTimeout":120,
+			"MessageExpires":-1
+		},
+		{
+			"BinderName":"rabbitmq002",
+			"BrokerConifg":
+			{
+				"Brokers":
+				[
+					{
+						"HostName":"127.0.0.1",
+						"Port":5672
+					}
+				],
+				"DefaultUserName":"guest",
+				"DefaultPassword":"guest"
+			},
+			"Type":0,
+			"IsDefault":true,
+			"DlqChannel":"rabbitmqdlq",
+			"DlqHandler":
+			{
+				"ID":null,
+				"AssemblyInfo":"GspCloudStreamTest",
+				"ClassInfo":"GspCloudStreamTest.RabbitMQDlqSubscriber",
+				"MethodInfo":"Subscribe",
+				"ExecuteType":2,
+				"Creator":null,
+				"CreateTime":null,
+				"LastChanger":null,
+				"LastChangeTime":null
+			},
+			"RequestedConnectionTimeOut":120,
+			"SocketReadTimeout":120,
+			"SocketWriteTimeout":120,
+			"MessageExpires":-1
+		}
+	],
+	"HandlerFailedStrategy":
+	{
+		"ID":"",
+		"IsReTry":true,
+		"ReTryTimes":1,
+		"StgType":"Skip",
+		"CompensateHandlerID":"",
+		"EnQueueTimes":0,
+		"IsToDlq":false,
+		"CompensateHandler":
+		{
+			"ID":"",
+			"AssemblyInfo":"",
+			"ClassInfo":"",
+			"MethodInfo":"",
+			"IsReturn":false,
+			"Creator":null,
+			"CreateTime":null,
+			"LastChanger":null,
+			"LastChangeTime":null
+		},
+		"Creator":null,
+		"CreateTime":null,
+		"LastChanger":null,
+		"LastChangeTime":null
+	},	
+	"EbsComsumer":	
+	{
+		"AssemblyInfo": "Inspur.Gsp.Ebs.Adapter",
+		"ClassInfo": "Inspur.Gsp.Ebs.Adapter.PubSubRelationAdpter",
+		"MethodInfo": "Gets"
+	},
+	"EbsSubscriber":
+	{
+		"AssemblyInfo": "Inspur.Gsp.Ebs.Adapter",
+		"ClassInfo": "Inspur.Gsp.Ebs.Adapter.MessageSubscriberAdpter",
+		"MethodInfo": "Subscribe"
+	}	
+}

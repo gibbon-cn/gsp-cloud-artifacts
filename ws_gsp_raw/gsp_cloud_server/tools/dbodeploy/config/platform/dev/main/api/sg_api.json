@@ -1,0 +1,24 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Sgf.Webapi",
+      "Controllers": [
+        {
+          "ServiceName": "SgfWebapi",
+          "Path": "/sg",
+          "Type": "Inspur.Gsp.Sgf.Webapi.SgfWebapi",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "InternalServiceWebApi",
+          "Path": "/internalapi",
+          "Type": "Inspur.Gsp.Sgf.Webapi.InternalServiceWebApi",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

@@ -1,0 +1,13 @@
+{
+	"CachingConfiguration" :
+	{
+	  "DistributedCacheManagers": [
+		{
+		  "Name": "WF",
+		  "CacheType": "Distributed",
+		  "Configuration":"127.0.0.1:6379",
+		  "InstanceName":"WFCacheServer"
+		}
+	  ]
+	}
+}

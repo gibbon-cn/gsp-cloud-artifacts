@@ -1,0 +1,112 @@
+﻿{
+    "Services": [
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeActionEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeActionEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeActionEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeActionEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeAssociationEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeAssociationEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeAssociationEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeAssociationEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeEventEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeEventEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeEventEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeEventEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeFlowchartEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeFlowchartEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeFlowchartEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeFlowchartEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeCreationProcessEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeCreationProcessEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeCreationProcessEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeCreationProcessEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+        
+        
+        
+        
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeCreationRuleEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeCreationRuleEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeCreationRuleEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeCreationRuleEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+
+
+
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeWritebackProcessEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeWritebackProcessEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeWritebackProcessEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeWritebackProcessEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        },
+
+        
+        
+        
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Manager.IBeWritebackRuleEntityManager,Inspur.Gsp.Aif.Api",
+            "Lifetime": "SINGLE-INSTANCE",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Manager.BeWritebackRuleEntityManager,Inspur.Gsp.Aif.EfPersistence"
+        },
+        {
+            "Interface": "Inspur.Gsp.Aif.Api.Query.IBeWritebackRuleEntityQuery,Inspur.Gsp.Aif.Api",
+            "Lifetime": "Per-Dependency",
+            "Implemention": "Inspur.Gsp.Aif.EfPersistence.Query.BeWritebackRuleEntityQuery,Inspur.Gsp.Aif.EfPersistence"
+        }
+    ]
+}

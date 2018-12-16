@@ -1,0 +1,15 @@
+{
+    "SessionEventConfigure" :
+    {
+        "EventListenerConfigurations" : [
+            {
+                 "Code" : "SessionEvent",
+                 "ListenerName" : "SessionEvent",
+                 "AssemblyName" : "Inspur.Gsp.Bef.Core, Version=1.0.0.0, Culture=neutral,PublicKeyToken=null",
+                 "ImplClassName" : "Inspur.Gsp.Bef.Core.Session.ResponseSession",
+                 "EventManagerCode" : "SessionEventManager",
+                 "Name" : "SessionEvent"
+             }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.DataSharing.Api.IDataSharingEvent,Inspur.Gsp.Svc.DataSharing.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.DataSharing.Service.DataSharingEvent,Inspur.Gsp.Svc.DataSharing.Service"
+    }
+  ]
+}

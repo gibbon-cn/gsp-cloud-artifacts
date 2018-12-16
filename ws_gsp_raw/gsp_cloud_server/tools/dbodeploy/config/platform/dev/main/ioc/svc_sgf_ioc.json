@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Sgf.Api.ISgMetadataService,Inspur.Gsp.Sgf.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Sgf.DesignTime.Core.SgMetadataService,Inspur.Gsp.Sgf.DesignTime.Core"
+    }
+  ]
+}

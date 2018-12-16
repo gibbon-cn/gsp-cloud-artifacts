@@ -1,0 +1,9 @@
+﻿{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.CodeRule.Api.ICodeRuleService,Inspur.Gsp.CodeRule.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.CodeRule.Rt.Core.CodeRuleService,Inspur.Gsp.CodeRule.Rt.Core"
+    } 
+  ]
+}

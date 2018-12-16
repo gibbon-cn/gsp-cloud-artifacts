@@ -1,0 +1,89 @@
+﻿{
+    "ControllerEventConfiguration": {
+        "EventListenerConfigurations": [{
+                "Code": "MetadataEventManager",
+                "ListenerName": "MetadataEventListener",
+                "AssemblyName": "Inspur.Gsp.Lcm.Metadata.Manager",
+                "ImplClassName": "Inspur.Gsp.Lcm.Metadata.Manager.MetadataEventListener",
+                "EventManagerCode": "MetadataEventManager",
+                "Name": "MetadataEventManager"
+            },
+            {
+                "Code": "BizEntityEventManager",
+                "ListenerName": "BizEntityEventManager",
+                "AssemblyName": "Inspur.Gsp.Bef.BEManager",
+                "ImplClassName": "Inspur.Gsp.Bef.BEManager.MetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+			{
+                "Code": "UdtEventManager",
+                "ListenerName": "UdtEventManager",
+                "AssemblyName": "Inspur.Gsp.Udt.DesignTime.Manager",
+                "ImplClassName": "Inspur.Gsp.Udt.DesignTime.Manager.UdtMetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+			  {
+                "Code": "EbsEntityEventManager",
+                "ListenerName": "EbsEntityEventManager",
+                "AssemblyName": "Inspur.Gsp.Ebs.Core",
+                "ImplClassName": "Inspur.Gsp.Ebs.Core.EventListener.MetadataEventListener",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            }
+			,
+			  {
+                "Code": "BeEventMetadata",
+                "ListenerName": "BeEventMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeEventMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },{
+                "Code": "BeActionMetadata",
+                "ListenerName": "BeActionMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeActionMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },{
+                "Code": "BeCreationRuleMetadata",
+                "ListenerName": "BeCreationRuleMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeCreationRuleMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },{
+                "Code": "BeCreationProcessMetadata",
+                "ListenerName": "BeCreationProcessMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeCreationProcessMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },{
+                "Code": "BeWritebackRuleMetadata",
+                "ListenerName": "BeWritebackRuleMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackRuleMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },{
+                "Code": "BeWritebackProcessMetadata",
+                "ListenerName": "BeWritebackProcessMetadata",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeWritebackProcessMetadata",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            },
+			  {
+                "Code": "BeFlowchartMetaData",
+                "ListenerName": "BeFlowchartMetaData",
+                "AssemblyName": "Inspur.Gsp.Aif.Api",
+                "ImplClassName": "Inspur.Gsp.Aif.Api.Metadata.BeFlowchartMetaData",
+                "EventManagerCode": "MetadataEventListener",
+                "Name": "MetadataEventListener"
+            }
+        ]
+    }
+}

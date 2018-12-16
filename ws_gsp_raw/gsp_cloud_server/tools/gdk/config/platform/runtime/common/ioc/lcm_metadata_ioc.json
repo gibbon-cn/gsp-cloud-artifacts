@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.Metadata.Api.IRuntimeService,Inspur.Gsp.Lcm.Metadata.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.Metadata.RuntimeManager.RuntimeLocalManager,Inspur.Gsp.Lcm.Metadata.RuntimeManager"
+    }
+  ]
+}

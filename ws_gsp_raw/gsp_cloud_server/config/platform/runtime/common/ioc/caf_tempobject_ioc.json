@@ -1,0 +1,9 @@
+{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Svc.TempObjectMgr.Api.ITempObjectMgr,Inspur.Gsp.Svc.TempObjectMgr.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Svc.TempObjectMgr.Impl.TempObjectMgrImpl,Inspur.Gsp.Svc.TempObjectMgr.Impl"
+    }
+  ]
+}

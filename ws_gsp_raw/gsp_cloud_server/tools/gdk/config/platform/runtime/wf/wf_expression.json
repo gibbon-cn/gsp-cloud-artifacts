@@ -1,0 +1,269 @@
+{
+  "OperatorCollection": {
+    "Operators": [
+      {
+        "PRI": "-1",
+        "Code": "(",
+        "Desc": "左括号",
+        "OptType": "Special"
+      },
+      {
+        "PRI": "-1",
+        "Code": ")",
+        "Desc": "右括号",
+        "OptType": "Special"
+      },
+      {
+        "PRI": "-1",
+        "Code": ",",
+        "Desc": "逗号",
+        "OptType": "Special"
+      },
+      {
+        "PRI": "0",
+        "Code": "Max",
+        "Desc": "最大",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "Float",
+            "Min": "2"
+          }
+        ],
+        "Return": {
+          "dataType": "Float"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Min",
+        "Desc": "最小",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "Float",
+            "Min": "2"
+          }
+        ],
+        "Return": {
+          "dataType": "Float"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Sum",
+        "Desc": "求和",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "Float",
+            "Min": "2"
+          }
+        ],
+        "Return": {
+          "dataType": "Float"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Trim",
+        "Desc": "去空格",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "String",
+            "Min": "1",
+            "Max": "1"
+          }
+        ],
+        "Return": {
+          "dataType": "String"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Len",
+        "Desc": "长度",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "String",
+            "Min": "1",
+            "Max": "1"
+          }
+        ],
+        "Return": {
+          "dataType": "Int"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "SubStr",
+        "Desc": "v",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "String",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            //"name": "StartIndex",
+            "DataType": "Int",
+            "Min": "1",
+            "Max": "1"
+          },
+          {
+            //"name": "Length",
+            "DataType": "Int",
+            "Min": "1",
+            "Max": "1"
+          }
+        ],
+        "Return": {
+          "dataType": "String"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Str",
+        "Desc": "转换成String类型",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "Default",
+            "Min": "1",
+            "Max": "1"
+          }
+        ],
+        "Return": {
+          "dataType": "String"
+        }
+      },
+      {
+        "PRI": "0",
+        "Code": "Num",
+        "Desc": "转换成Float类型",
+        "OptType": "Custom",
+        "Param": [
+          {
+            "DataType": "Default",
+            "Min": "1",
+            "Max": "1"
+          }
+        ],
+        "Return": {
+          "dataType": "Float"
+        }
+      },
+      {
+        "PRI": "1",
+        "Code": "+",
+        "Desc": "正号",
+        "OptType": "Unary"
+      },
+      {
+        "PRI": "1",
+        "Code": "-",
+        "Desc": "负号",
+        "OptType": "Unary"
+      },
+      {
+        "PRI": "1",
+        "Code": "!",
+        "Desc": "逻辑非运算符",
+        "OptType": "Unary"
+      },
+      {
+        "PRI": "1",
+        "Code": "!",
+        "Desc": "逻辑非运算符",
+        "OptType": "Unary"
+      },
+      {
+        "PRI": "2",
+        "Code": "*",
+        "Desc": "乘法运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "2",
+        "Code": "/",
+        "Desc": "除法运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "2",
+        "Code": "%",
+        "Desc": "求余运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "3",
+        "Code": "+",
+        "Desc": "加法运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "3",
+        "Code": "-",
+        "Desc": "减法运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "4",
+        "Code": "<",
+        "Desc": "小于运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "4",
+        "Code": ">",
+        "Desc": "大于运算符号",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "4",
+        "Code": "<=",
+        "Desc": "小于等于运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "4",
+        "Code": ">=",
+        "Desc": "大于等于运算符",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "5",
+        "Code": "==",
+        "Desc": "等于",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "5",
+        "Code": "!=",
+        "Desc": "不等于",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "6",
+        "Code": "&&",
+        "Desc": "条件'与'运算",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "7",
+        "Code": "||",
+        "Desc": "条件'或'运算",
+        "OptType": "Duality"
+      },
+      {
+        "PRI": "8",
+        "Code": "#",
+        "Desc": "开始或终结符",
+        "OptType": "System"
+      }
+    ]
+  }
+}

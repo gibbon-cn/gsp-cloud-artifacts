@@ -1,0 +1,49 @@
+﻿/*
+  配置文件的路径
+  Glbal
+    -WebApi
+      -GSP
+        -CafWebApi.json
+        -SysWebApi.json
+        -....
+      -BI
+      -FI
+*/
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.Rac.DesignTime.Controller",
+      "Controllers": [
+		{
+          "ServiceName": "Authorization",
+          "Path": "/authorizations",
+          "Type": "Inspur.Gsp.Sys.Rac.DesignTime.Controller.AuthorizationController",
+          "Version": "1.0"
+        },
+		{
+          "ServiceName": "AuthField",
+          "Path": "/authFields",
+          "Type": "Inspur.Gsp.Sys.Rac.DesignTime.Controller.AuthFieldController",
+          "Version": "1.0"
+        }
+      ]	 
+	  
+	},
+	 {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.Rac.AssignTime.Controller",
+      "Controllers": [
+		{
+          "ServiceName": "AuthorizationAssignment",
+          "Path": "/assignresults",
+          "Type": "Inspur.Gsp.Sys.Rac.AssignTime.Controller.AuthorizationAssignmentController",
+          "Version": "1.0"
+        }
+      ]	 
+	  
+	}
+  ] 
+}

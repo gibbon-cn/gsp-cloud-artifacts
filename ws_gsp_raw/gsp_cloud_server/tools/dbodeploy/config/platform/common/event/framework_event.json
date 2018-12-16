@@ -1,0 +1,15 @@
+{
+    "GspAppEventListener" :
+    {
+        "EventListenerConfigurations" : [
+          //{
+             //"Code" : "frameworkevent",
+             //"ListenerName" : "frameworkevent",
+             //"AssemblyName" : "",
+             //"ImplClassName" : "",
+             //"EventManagerCode" : "FrameworkEventManager",
+             //"Name" : "frameworkevent"
+          //}            
+        ]
+    }
+}

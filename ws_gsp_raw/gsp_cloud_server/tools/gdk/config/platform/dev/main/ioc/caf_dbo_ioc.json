@@ -1,0 +1,13 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.DatabaseObject.Api.Service.IDatabaseObjectService,Inspur.Gsp.Lcm.DatabaseObject.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.DatabaseObject.Manager.Service.LocalManager,Inspur.Gsp.Lcm.DatabaseObject.Manager"
+    },{
+      "Interface": "Inspur.Gsp.Lcm.DatabaseObject.Api.IDatabaseObjectDeployService,Inspur.Gsp.Lcm.DatabaseObject.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.DatabaseObject.DBODeploy.DatabaseObjectDeployManager,Inspur.Gsp.Lcm.DatabaseObject.DBODeploy"
+    }	
+  ]
+}

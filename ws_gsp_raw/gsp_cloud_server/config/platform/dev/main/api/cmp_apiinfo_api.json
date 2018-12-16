@@ -1,0 +1,19 @@
+﻿
+{
+  "GSPWebApiConfigurations": [ 
+	{
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Cmp.WebApi.Service",
+      "Controllers": [
+        {
+          "ServiceName": "WebApiInfoController",
+          "Path": "/apiInfo",
+          "Type": "Inspur.Gsp.Cmp.WebApi.Service.Controller.WebApiInfoController",
+          "Version": "1.0"
+        }    
+      ]
+    }
+
+  ] 
+}

@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Lcm.GitLib.Api.IGitService,Inspur.Gsp.Lcm.GitLib.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Lcm.GitLib.Manager.GitManager,Inspur.Gsp.Lcm.GitLib.Manager"
+    }
+  ]
+}

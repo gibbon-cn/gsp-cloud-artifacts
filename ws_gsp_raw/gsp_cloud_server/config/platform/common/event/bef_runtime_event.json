@@ -1,0 +1,24 @@
+{
+	"BefSaveEventConfiguration": 
+	{
+		"EventListenerConfigurations": 
+		[
+			{
+				"Code": "Aif", //事件的编号
+				"Name": "Aif", //事件的名称
+				"ListenerName": "Aif", //事件监听的名称
+				"EventManagerCode": "Aif", //事件管理类的编号
+				"AssemblyName": "Inspur.Gsp.Aif.Engine", //程序集名称
+				"ImplClassName": "Inspur.Gsp.Aif.Engine.Bef.BefSaveEventListener" //实现类名称
+			},
+			{
+				"Code": "DataSharing",
+				"ListenerName": "DataSharing",
+				"AssemblyName": "Inspur.Gsp.Svc.DataSharing.Service",
+				"ImplClassName": "Inspur.Gsp.Svc.DataSharing.Service.BaseOnBEListener",
+				"EventManagerCode": "DataSharing",
+				"Name": "DataSharing"
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+
+{
+    "ServiceUnitInfo" :
+    {
+        "ApplicationName" : "runtime",
+        "ServiceUnitName" : "wf",
+        "ApplicationPath" : "/platform/runtime/wf"
+    }
+}

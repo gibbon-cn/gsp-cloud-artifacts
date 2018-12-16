@@ -1,0 +1,29 @@
+﻿
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.Stakeout.WebApi",
+      "Controllers": [
+		{
+          "ServiceName": "StakeoutController",
+          "Type": "Inspur.Gsp.Sys.Stakeout.WebApi.StakeoutController",
+          "Version": "1.0"
+        }
+      ]
+    },
+    {
+      "Application": "runtime",
+      "ServiceUnit": "sys",
+      "Assembly": "Inspur.Gsp.Sys.Stakeout.WebApi",
+      "Controllers": [
+		{
+          "ServiceName": "UstateFunctionController",
+          "Type": "Inspur.Gsp.Sys.Stakeout.WebApi.UstateFunctionController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

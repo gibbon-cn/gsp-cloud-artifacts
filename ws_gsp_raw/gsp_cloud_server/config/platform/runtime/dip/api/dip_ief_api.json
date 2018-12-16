@@ -1,0 +1,33 @@
+﻿{
+	"GSPWebApiConfigurations": 
+	[
+		{
+			"Application": "runtime",
+			"ServiceUnit": "dip",
+			"Assembly": "Inspur.Gsp.Dip.IE.FlowsTest",
+			"Controllers": 
+			[
+				{
+					"ServiceName": "ExportToExcelTest",
+					"Path": "/export",
+					"Type": "Inspur.Gsp.Dip.IE.FlowsTest.ExportToExcelTest",
+					"Version": "1.0"
+				}
+			]
+		},
+		{
+			"Application": "runtime",
+			"ServiceUnit": "dip",
+			"Assembly": "Inspur.Gsp.Dip.IE.FlowsTest",
+			"Controllers": 
+			[
+				{
+					"ServiceName": "ImportToExcelTest",
+					"Path": "/import",
+					"Type": "Inspur.Gsp.Dip.IE.FlowsTest.ImportToExcelTest",
+					"Version": "1.0"
+				}
+			]
+		}
+	] 
+}

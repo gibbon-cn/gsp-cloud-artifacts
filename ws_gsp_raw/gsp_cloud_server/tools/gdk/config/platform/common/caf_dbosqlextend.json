@@ -1,0 +1,12 @@
+﻿{
+	"DatabaseObjectSQLConfiguration":[{
+	    "SQLReflector":
+	    {
+		    "DBTypeCode":"PgSQL",
+			"DBTypeName":"PgSQL",
+			"Name":"Inspur.Gsp.Lcm.DatabaseObject.PgsqlGenerator.PostgresSqlGenerator",
+			"Assembly":"Inspur.Gsp.Lcm.DatabaseObject.PgsqlGenerator.dll"
+		}
+	}	
+	]
+}

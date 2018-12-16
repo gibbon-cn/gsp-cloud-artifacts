@@ -1,0 +1,10 @@
+
+{
+    "ServiceUnitInfo" :
+    {
+        "ApplicationName" : "scm",
+        "ServiceUnitName" : "sd",
+        "ApplicationPath" : "apps/scm/sd",
+        "ConfigPath" : "apps/scm/sd/configs"
+    }
+}

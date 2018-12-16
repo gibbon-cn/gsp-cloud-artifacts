@@ -1,0 +1,7 @@
+{
+    "ServiceUnitInfo": {
+        "ServiceUnitName": "pfcommon",
+        "Type":"common",
+        "ApplicationPath": "/platform/common"
+    }
+}

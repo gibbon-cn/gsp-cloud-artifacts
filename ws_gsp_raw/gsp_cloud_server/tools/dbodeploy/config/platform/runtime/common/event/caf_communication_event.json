@@ -1,0 +1,14 @@
+{
+  "ConfigureServiceEventConfiguration": {
+    "EventListenerConfigurations": [
+        {
+           "Code" : "InitRTServerStart",
+           "ListenerName" : "InitRTServerStart",
+           "AssemblyName" : "Inspur.Gsp.Lcm.Metadata.RuntimeManager",
+           "ImplClassName" : "Inspur.Gsp.Lcm.Metadata.RuntimeManager.MetadataInitService",
+           "EventManagerCode" : "InitRTServerStart",
+           "Name" : "InitRTServerStart"
+        }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.FormServer.Api.Manager.IFSManagerFactory,Inspur.Gsp.FormServer.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.FormServer.RTGenerator.FSManagerFactory,Inspur.Gsp.FormServer.RTGenerator"
+    }
+  ]
+}

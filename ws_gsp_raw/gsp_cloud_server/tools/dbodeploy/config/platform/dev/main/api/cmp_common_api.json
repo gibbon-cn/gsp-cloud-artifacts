@@ -1,0 +1,28 @@
+﻿/*
+  配置文件的路径
+  Glbal
+    -WebApi
+      -GSP
+        -CafWebApi.json
+        -SysWebApi.json
+        -....
+      -BI
+      -FI
+*/
+{
+  "GSPWebApiConfigurations": [
+    
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Component.DT.Core",
+      "Controllers": [
+        {
+          "ServiceName": "Inspur.Gsp.Component.DT.Core.CommonComponentsController",
+          "Type": "Inspur.Gsp.Component.DT.Core.CommonComponentsController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ] 
+}

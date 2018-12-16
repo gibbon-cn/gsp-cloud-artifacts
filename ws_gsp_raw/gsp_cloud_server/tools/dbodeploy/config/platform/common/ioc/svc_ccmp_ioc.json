@@ -1,0 +1,9 @@
+﻿{
+  "Services": [
+    {
+      "Interface": "Inspur.Gsp.Component.Api.IComponentRTService,Inspur.Gsp.Component.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Component.RT.Core.ComponentRTService,Inspur.Gsp.Component.RT.Core"
+    }
+  ]
+}

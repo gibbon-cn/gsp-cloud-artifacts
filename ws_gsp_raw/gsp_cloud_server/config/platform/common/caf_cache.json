@@ -1,0 +1,26 @@
+{
+	"CachingConfiguration": 
+	{
+		"DistributedCacheManagers": 
+		[
+			{
+				"Name": "DataSharing",
+				"CacheType": "Distributed",
+				"Configuration": "127.0.0.1:6379",
+				"InstanceName": "DataSharing"
+			},
+			{
+				"Name": "MQCache",
+				"CacheType": "Distributed",
+				"Configuration": "127.0.0.1:6379",
+				"InstanceName": "MQCache"
+			},
+			{
+				"Name": "DIPIECache",
+				"CacheType": "Distributed",
+				"Configuration": "127.0.0.1:6379",
+				"InstanceName": "MQCache"
+			}
+		]
+	}
+}

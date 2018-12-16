@@ -1,0 +1,19 @@
+﻿{
+	"GSPWebApiConfigurations": 
+	[
+		{
+			"Application": "runtime",
+			"ServiceUnit": "sys",
+			"Assembly": "Inspur.Gsp.Svc.DataSharing.Controller",
+			"Controllers": 
+			[
+				{
+					"ServiceName": "DataSharingEventTest",
+					"Path": "/datasharing",
+					"Type": "Inspur.Gsp.Svc.DataSharing.Controller.DataSharingEventTest",
+					"Version": "1.0"
+				}
+			]
+		}
+	] 
+}

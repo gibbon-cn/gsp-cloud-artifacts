@@ -1,0 +1,17 @@
+{
+  "GSPWebApiConfigurations": [
+    {
+      "Application": "dev",
+      "ServiceUnit": "main",
+      "Assembly": "Inspur.Gsp.Svc.Timestamp.DelTableConfig.Controller",
+      "Controllers": [
+        {
+          "ServiceName": "DelTableConfigController",
+          "Path": "/deltableconfig",
+          "Type": "Inspur.Gsp.Svc.Timestamp.DelTableConfig.Controller.DelTableConfigController",
+          "Version": "1.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "Interface": "Inspur.Gsp.Bef.Api.Lcp.ILcpFactory,Inspur.Gsp.Bef.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Bef.Generator.LcpFactory,Inspur.Gsp.Bef.Generator"
+    },
+    {
+      "Interface": "Inspur.Gsp.Bef.Api.Repository.IRepositoryFactory,Inspur.Gsp.Bef.Api",
+      "Lifetime": "SINGLE-INSTANCE",
+      "Implemention": "Inspur.Gsp.Bef.Generator.RepositoryFactory.RepositoryFactory,Inspur.Gsp.Bef.Generator"
+    },
+    {
+      "Interface": "Inspur.Gsp.Bef.Api.Services.IBefSessionManager,Inspur.Gsp.Bef.Api",
+      "Lifetime": "PER-DEPENDENCY",
+      "Implemention": "Inspur.Gsp.Bef.Core.Session.BefSessionManager,Inspur.Gsp.Bef.Core"
+    }
+  ]
+}
