@@ -1,4 +1,4 @@
-FROM ecp.docker.iec.io/ws_gsp_file:nightly
+FROM gibbonnet/ws_gsp_file:nightly
 
 ADD --chown=user:user ./patch/config/main.json /home/gsp/gsp_cloud_server/config/main.json
 ADD --chown=user:user ./patch/config/runtime/caf_cache.json /home/gsp/gsp_cloud_server/config/runtime/caf_cache.json
